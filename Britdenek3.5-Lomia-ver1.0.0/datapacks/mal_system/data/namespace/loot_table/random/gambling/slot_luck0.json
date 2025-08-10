@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:random/gambling/slot/junk",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:random/gambling/slot/treasure",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:random/gambling/slot/normal",
+          "weight": 60
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

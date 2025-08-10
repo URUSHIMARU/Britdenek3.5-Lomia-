@@ -1,0 +1,86 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:item/other/coal",
+          "weight": 5,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "max": 5,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:item/other/arrow",
+          "weight": 5,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "max": 10,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:item/other/cobblestone",
+          "weight": 5,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "max": 10,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:item/other/redstone",
+          "weight": 5,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "max": 3,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:item/other/stick",
+          "weight": 5,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "max": 10,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "namespace:skill/normal/skill11",
+  "display": {
+    "icon": {
+      "id": "minecraft:light_gray_stained_glass",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            112
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancement.skill.root.skill.12.name"
+    },
+    "description": {
+      "translate": "advancement.skill.root.skill.12.description"
+    },
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+	"criteria": {
+		" ": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:custom_data": {
+								"getSkill12": true
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+  "rewards": {
+    "function": "namespace:main/advancement/skill/skill12"
+  }
+}

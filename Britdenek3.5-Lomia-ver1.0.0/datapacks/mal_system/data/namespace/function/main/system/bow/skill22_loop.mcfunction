@@ -1,0 +1,2 @@
+execute as @e[tag=skill22_arrow] at @s run particle minecraft:firework ~ ~ ~ 0 0 0 0.1 3 force
+execute if entity @e[type=arrow,limit=1,tag=skill22_arrow] run schedule function namespace:main/system/bow/skill22_loop 1t replace

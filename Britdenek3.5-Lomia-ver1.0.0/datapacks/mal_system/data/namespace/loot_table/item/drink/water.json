@@ -1,0 +1,88 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honey_bottle",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food":{
+                  "nutrition":1,
+                  "saturation":1,
+                  "can_always_eat":true
+                },
+                "minecraft:consumable":{
+                  "has_consume_particles":false,
+                  "sound":"minecraft:entity.generic.drink"
+                },
+                "minecraft:max_stack_size": 99,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    5
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "species": "food",
+                  "food":"water",
+                  "value": 2
+                },
+                "minecraft:custom_name": {
+                  "translate": "item.drink.5.name",
+                  "color": "white",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                [
+                  {
+                    "translate": "system.sell.emerald",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  {
+                    "text": "\uF000",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "×0.2",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "translate": "system.item.effect",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "system.item.effect.clear.low",
+                    "color": "green",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "item.drink.5.lore.1",
+                  "color": "white",
+                  "italic": false
+                }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": []
+}

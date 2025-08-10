@@ -1,0 +1,140 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 1,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    1
+                  ]
+                },
+                "minecraft:tooltip_display":{
+                  "hidden_components":[
+                    "attribute_modifiers"
+                  ]
+                },
+                "minecraft:attribute_modifiers":[
+                  {
+                    "id":"armor",
+                  "type":"armor",
+                  "amount":0,
+                  "operation":"add_value"
+                }
+                ],
+                "minecraft:custom_data": {
+                  "species": "weapon",
+                  "sword": false,
+                  "spear": true,
+                  "axe": false,
+                  "bow": false,
+                  "shield": false,
+                  "value": 20,
+                  "attackBase": 40,
+                  "attackSpeedBase":11,
+                  "attackRangeBase":60,
+                  "bowAttackBase":10,
+                  "magicAttackBase":0,
+                  "guardBase":0,
+                  "mpHealBase":20,
+                  "spearSpecies":1
+                },
+                "minecraft:custom_name": {
+                  "translate": "system.item.weapon.name.12",
+                  "color": "white",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                [
+                  {
+                    "translate": "system.sell.emerald",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  {
+                    "text": "\uF000",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "×2",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "translate": "system.item.weapon",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "translate": "system.item.spear",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "system.item.weapon.param1",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "translate": "system.item.param.attack",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "4",
+                    "color": "green",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "translate": "system.item.param.attack_speed",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "1.1",
+                    "color": "green",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "translate": "system.item.param.range",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "6.5",
+                    "color": "green",
+                    "italic": false
+                  }
+                ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": []
+}

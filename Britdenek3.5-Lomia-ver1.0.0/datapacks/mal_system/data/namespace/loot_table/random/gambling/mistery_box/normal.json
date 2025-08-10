@@ -1,0 +1,171 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:item/other/lapis_lazuli",
+          "weight": 5,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 5,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:item/armor/curese",
+          "weight": 2,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 1,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:item/other/iron_ingot",
+          "weight": 5,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 2,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:item/other/gold_ore",
+          "weight": 5,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 2,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:item/weapon/iron_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 1,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:item/weapon/iron_knife",
+          "weight": 1,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 1,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:item/weapon/iron_scythe",
+          "weight": 1,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 1,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:item/weapon/iron_spear",
+          "weight": 1,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 1,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:item/weapon/iron_stuff",
+          "weight": 1,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 1,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:item/weapon/iron_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 1,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:item/weapon/belt_axe",
+          "weight": 15,
+          "quality": 2,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 1,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:item/weapon/giran",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 1,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:item/weapon/undead_punisher_old",
+          "weight": 3,
+          "quality": 1,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 1,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:item/weapon/dress_heart",
+          "weight": 8,
+          "quality": 1,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 1,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:item/other/gold_statue",
+          "weight": 5,
+          "quality": 1,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 1,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:item/other/diamond_statue",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 1,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:item/other/diamond",
+          "weight": 10,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 3,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:item/other/gold_ingot",
+          "weight": 10,
+          "quality": -1,          
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 5,
+                "min": 3
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:item/other/netherite_ingot",
+          "weight": 8,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 2,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

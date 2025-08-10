@@ -1,0 +1,82 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 1,
+                "minecraft:potion_contents":{
+                  "custom_color":14548992,
+                  "custom_effects":[
+                  ]
+                },
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    0
+                  ]
+                },
+                "minecraft:tooltip_display":{
+                  "hidden_components":[
+                    "attribute_modifiers"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "species": "potion",
+                  "phantom_blood": true,
+                  "value": 500
+                },
+                "minecraft:custom_name": {
+                  "translate": "system.item.potion.name.2",
+                  "color": "white",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                [
+                  {
+                    "translate": "system.sell.emerald",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  {
+                    "text": "\uF000",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "×50",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+            		{
+					          "text": "",
+					          "color": "white",
+					          "italic": false
+				          },
+                  {
+                    "translate": "system.item.potion.lore.2.1",
+                    "color": "white",
+                    "italic": false
+                  },
+                   {
+                    "translate": "system.item.potion.lore.2.2",
+                    "color": "white",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": []
+}

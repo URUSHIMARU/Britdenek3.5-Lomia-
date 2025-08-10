@@ -1,0 +1,2 @@
+execute as @e[tag=skill21_arrow] at @s run particle minecraft:lava ~ ~ ~ 0 0 0 0 2 force
+execute if entity @e[type=arrow,limit=1,tag=skill21_arrow] run schedule function namespace:main/system/bow/skill21_loop 1t replace

@@ -1,0 +1,14 @@
+{
+    "display": {
+        "title": "",
+        "description": "",
+        "icon": {
+            "id": "stone"
+        }
+    },
+    "criteria": {
+        "": {
+            "trigger": "impossible"
+        }
+    }
+}

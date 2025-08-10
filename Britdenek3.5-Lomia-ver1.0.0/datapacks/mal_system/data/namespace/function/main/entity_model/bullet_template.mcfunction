@@ -1,0 +1,3 @@
+#頭に何も被せたくないときは id:1000を指定
+$summon minecraft:$(entity) ~ ~ ~ {Offers: {},Health:$(health),attributes:[{id:"minecraft:max_health",base:$(health)}],active_effects:[{id:"minecraft:wither",amplifier:1,duration:-1,show_particles:0b},{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b}],Offers:{},PersistenceRequired:1b,DeathTime:19s,DeathLootTable:"namespace:item/other/none",NoGravity:1b,NoAI:1b,Silent:1b,Tags:["entity_first"],CanPickUpLoot:0b,equipment: {head: {count: 1, id: "minecraft:white_stained_glass",components:{"minecraft:dyed_color": 16777215,"minecraft:custom_model_data":{floats:[$(id)]}}}},drop_chances:{head:0}}
+

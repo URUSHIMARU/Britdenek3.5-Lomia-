@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 16,
+                "minecraft:custom_data": {
+                  "value": 25
+                },
+                "written_book_content":{
+                  "author":"",
+                  "title":"",
+                  "generation":0,
+                  "pages":[
+                    [{"translate":"item.book.10.page.1","color":"black"},{"text":"\uF008","color":"white"}],
+                    [{"translate":"item.book.10.page.2","color":"black"},{"text":"\uF009","color":"white"}],
+                    [{"translate":"item.book.10.page.3","color":"black"},{"text":"\uF00A","color":"white"}]
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "translate": "item.book.10.title",
+                  "color": "white",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "translate": "system.sell.emerald",
+                      "color": "gold",
+                      "italic": false
+                    },
+                    {
+                      "text": "\uF000",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "×2.5",
+                      "color": "gold",
+                      "italic": false
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": []
+}

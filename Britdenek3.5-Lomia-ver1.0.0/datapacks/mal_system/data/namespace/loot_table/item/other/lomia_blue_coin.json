@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dirt",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 99,
+                "minecraft:custom_data": {
+                  "value": -1,
+                  "lomia_coin":1,
+                  "arena":true
+                },
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    1
+                  ]
+                },           
+								"minecraft:custom_name": {
+									"translate": "system.item.other.name.3",
+									"color": "aqua",
+									"italic": false
+								},                     
+                "minecraft:lore": [
+                {
+                  "translate": "system.item.other.lore.3.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "system.item.other.lore.3.2",
+                  "color": "white",
+                  "italic": false
+                }                
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": []
+}

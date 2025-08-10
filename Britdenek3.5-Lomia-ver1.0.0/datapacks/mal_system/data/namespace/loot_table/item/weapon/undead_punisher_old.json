@@ -1,0 +1,156 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 1,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    4
+                  ]
+                },
+                "minecraft:tooltip_display":{
+                  "hidden_components":[
+                    "attribute_modifiers"
+                  ]
+                },
+                "minecraft:attribute_modifiers":[
+                  {
+                    "id":"armor",
+                  "type":"armor",
+                  "amount":0,
+                  "operation":"add_value"
+                }
+                ],
+                "minecraft:custom_data": {
+                  "star":true,
+                  "effect": "undead_punisher_old",
+                  "species": "weapon",
+                  "sword": true,
+                  "spear": false,
+                  "axe": false,
+                  "bow": false,
+                  "shield": false,
+                  "value": 500,
+                  "attackBase": 10,
+                  "attackSpeedBase":16,
+                  "attackRangeBase":45,
+                  "bowAttackBase":10,
+                  "magicAttackBase":0,
+                  "guardBase":0,
+                  "mpHealBase":20
+                },
+                "minecraft:custom_name": {
+                  "translate": "system.item.weapon.name.30",
+                  "color": "white",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                [
+                  {
+                    "translate": "system.sell.emerald",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  {
+                    "text": "\uF000",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "×50",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "translate": "system.item.weapon",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "translate": "system.item.sword",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "system.item.weapon.param1",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "translate": "system.item.param.attack",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "1",
+                    "color": "green",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "translate": "system.item.param.attack_speed",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "1.1",
+                    "color": "green",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "translate": "system.item.param.range",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "4.5",
+                    "color": "green",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "system.item.weapon.lore.30.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "system.item.weapon.lore.30.2",
+                  "color": "white",
+                  "italic": false
+                }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": []
+}

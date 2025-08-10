@@ -1,0 +1,15 @@
+{
+  "namespace:skill/normal/skill1": {
+    "criteria": {
+      " ": "2025-08-10 17:15:08 +0900"
+    },
+    "done": true
+  },
+  "namespace:skill/skill_root": {
+    "criteria": {
+      " ": "2025-08-10 17:15:08 +0900"
+    },
+    "done": true
+  },
+  "DataVersion": 4440
+}

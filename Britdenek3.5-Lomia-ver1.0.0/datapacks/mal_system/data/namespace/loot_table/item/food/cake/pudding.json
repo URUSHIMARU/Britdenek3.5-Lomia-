@@ -1,0 +1,97 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food":{
+                  "nutrition":8,
+                  "saturation":10,
+                  "can_always_eat":false
+                },
+                "minecraft:max_stack_size": 1,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    13
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "reg":3,
+                  "cure_mp":5,                  
+                  "species": "food",
+                  "food":"bread",
+                  "value": 100
+                },
+                "minecraft:custom_name": {
+                  "translate": "system.item.food.name.19",
+                  "color": "white",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                [
+                  {
+                    "translate": "system.sell.emerald",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  {
+                    "text": "\uF000",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "×10",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "translate": "system.item.effect",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "system.item.effect.reg.3",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": ",",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "system.item.effect.mp.5",
+                    "color": "green",
+                    "italic": false
+                  }
+                ],
+
+                {
+                  "text": "",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "system.item.food.lore.19.1",
+                  "color": "white",
+                  "italic": false
+                }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": []
+}

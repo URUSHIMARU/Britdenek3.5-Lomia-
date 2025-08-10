@@ -1,0 +1,102 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:tooltip_display":{
+                  "hide_tooltip": false,
+                  "hidden_components":[
+                    "attribute_modifiers"
+                  ]
+                },
+                "minecraft:attribute_modifiers":[
+                  {
+                    "id":"armor",
+                  "type":"armor",
+                  "amount":0,
+                  "operation":"add_value"
+                }
+                ],
+                "minecraft:max_stack_size": 1,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    0
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "species": "armor",
+                  "value": 40,
+                  "guardBase": 50,
+                  "mpHeal":0,
+                  "maxHealthBase":50
+                },
+                "minecraft:lore": [
+                [
+                  {
+                    "translate": "system.sell.emerald",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  {
+                    "text": "\uF000",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "×4",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                {
+                  "translate": "system.item.armor",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": "",
+                  "color": "white",
+                  "italic": false
+                },
+                [
+                  {
+                    "translate": "system.item.param.guard",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "+5",
+                    "color": "green",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "translate": "system.item.param.max_health",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "+5",
+                    "color": "green",
+                    "italic": false
+                  }
+                ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": []
+}

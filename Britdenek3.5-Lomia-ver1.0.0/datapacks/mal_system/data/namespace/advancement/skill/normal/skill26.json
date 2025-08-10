@@ -1,0 +1,32 @@
+{
+  "parent": "namespace:skill/normal/skill21",
+  "display": {
+    "icon": {
+      "id": "minecraft:light_gray_stained_glass",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            126
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancement.skill.root.skill.26.name"
+    },
+    "description": {
+      "translate": "advancement.skill.root.skill.26.description"
+    },
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    " ": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "namespace:main/advancement/skill/skill26"
+  }
+}

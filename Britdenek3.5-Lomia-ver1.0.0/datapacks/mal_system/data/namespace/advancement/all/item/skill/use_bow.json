@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "stone"
+    },
+    "title": "",
+    "description": "",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "namespace:all/root",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data":{
+              "species": "weapon",
+              "bow": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "namespace:main/advancement/item/skill/use_bow"
+  }
+}

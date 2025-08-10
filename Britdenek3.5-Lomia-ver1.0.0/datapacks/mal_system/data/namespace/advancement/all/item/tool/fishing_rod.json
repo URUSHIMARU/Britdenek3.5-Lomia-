@@ -1,0 +1,24 @@
+{
+    "parent": "namespace:all/root",
+    "display": {
+        "title": "",
+        "description": "",
+        "icon": {
+            "id": "minecraft:stone"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "namespace:main/fishing/fishing"
+    }
+}
