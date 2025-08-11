@@ -16,11 +16,8 @@ Britdenek3.5-Lomia-ver1.0.0: World data.
 
 Estimated clear time is about 2 to 6 hours. 
 
-For feedback, advice, or anything else, please use this forum, my X (
+For feedback, advice, or anything else, please use this forum, my X (https://x.com/gol559), or the comment section of this world's trailer (https://youtu.be/EKQ6nWwSyrY). 
 
-https://x.com/gol559), or the comment section of this world's trailer (https://youtu.be/EKQ6nWwSyrY). 
-
-When playing in multiplayer, please use the included server properties. (Server resource packs can be used). 
 
 ◎ Required Settings
 
