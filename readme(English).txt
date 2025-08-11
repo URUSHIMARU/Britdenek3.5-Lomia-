@@ -18,7 +18,7 @@ Estimated clear time is about 2 to 6 hours.
 
 For feedback, advice, or anything else, please use this forum, my X (
 
-https://x.com/gol559), or the comment section of this world's trailer (https://youtu.be/0fPHpwLvCuY). 
+https://x.com/gol559), or the comment section of this world's trailer (https://youtu.be/EKQ6nWwSyrY). 
 
 When playing in multiplayer, please use the included server properties. (Server resource packs can be used). 
 
@@ -105,7 +105,7 @@ Creator: URUSHIMARU
 X: https://x.com/gol559
 Youtube: https://www.youtube.com/channel/UCQlXGu43ms0xBUEPh7Mx8fA
 
-World: Britdenek3.5-Lomia- ( https://youtu.be/0fPHpwLvCuY )
+World: Britdenek3.5-Lomia- ( https://youtu.be/EKQ6nWwSyrY )
 =================================================================== 
 
 ●List of Collaborators for this World

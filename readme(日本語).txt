@@ -11,7 +11,7 @@ Britdenek3.5-Lomia-ver1.0.0 : ワールドデータです。
 
 ●詳細説明
 ・クリア推定時間は2～6時間程度です。
-・感想などやアドバイス、その他何かございましたらこちらのフォーラムまたは私のX(https://x.com/gol559)また本ワールドのトレーラーのコメント欄(https://youtu.be/0fPHpwLvCuY)までお願いします。
+・感想などやアドバイス、その他何かございましたらこちらのフォーラムまたは私のX(https://x.com/gol559)また本ワールドのトレーラーのコメント欄(https://youtu.be/EKQ6nWwSyrY)までお願いします。
 ・マルチでプレイする際には、同梱しているサーバープロパティーを使用してください。(サーバーリソースパックが使用できます)
 
 ◎必須設定
@@ -85,7 +85,7 @@ Q:魔法が効かない敵がいるんだけど？
 X: https://x.com/gol559
 Youtube: https://www.youtube.com/channel/UCQlXGu43ms0xBUEPh7Mx8fA
 
-使用ワールド: Britdenek3.5-Lomia- ( https://youtu.be/0fPHpwLvCuY )
+使用ワールド: Britdenek3.5-Lomia- ( https://youtu.be/EKQ6nWwSyrY )
 ===================================================================
 
 ●本ワールドの製作協力者一覧
