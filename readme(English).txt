@@ -66,7 +66,7 @@ Never set it using commands or similar.
 
 ● Q&A for when you're stuck
 Q: Why do I get a warning when I try to enter a world?
-A: The warning appears because you're tampering with the world. You can safely ignore it.
+A: You will get a warning because you are messing with biomes, but you can safely ignore it.
 
 Q: How do I install the world?
 A: Please refer to this video ( https://youtu.be/t2xBxEWfj2s ). 
