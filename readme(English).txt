@@ -162,3 +162,5 @@ Thank you so much to everyone who helped with development and downloaded this wo
 
 ●Version Update History
 2025/08/11 ver1.0.0 Released
+2025/08/15 ver1.0.1 Fixed a bug where rewards from the Romia Arena were not being paid.
+
