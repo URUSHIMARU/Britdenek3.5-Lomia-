@@ -1,0 +1,33 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"2": "block/fire_1",
+		"particle": "block/campfire_fire"
+	},
+	"elements": [
+		{
+			"from": [7.4, 2.025, 9.35],
+			"to": [8.75, 6.525, 10.7],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [1.475, 1.8, 1.475]},
+			"faces": {
+				"north": {"uv": [6, 4, 9, 12], "rotation": 180, "texture": "#2"},
+				"east": {"uv": [6, 4, 9, 12], "rotation": 180, "texture": "#2"},
+				"south": {"uv": [6, 4, 9, 12], "rotation": 180, "texture": "#2"},
+				"west": {"uv": [6, 4, 9, 12], "rotation": 180, "texture": "#2"},
+				"up": {"uv": [6, 13, 9, 16], "texture": "#2"},
+				"down": {"uv": [0, 0, 1, 1], "texture": "#2"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [99, 0, 0],
+			"translation": [-0.25, -2.25, 7.5],
+			"scale": [3, 3, 3]
+		},
+		"head": {
+			"translation": [0, -15.75, -2],
+			"scale": [4, 4, 4]
+		}
+	}
+}

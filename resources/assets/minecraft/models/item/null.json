@@ -1,0 +1,14 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "block/quartz_block_bottom"
+	},
+	"elements": [
+	],
+	"display": {
+		"head": {
+			"translation": [0, -44.75, -35.5],
+			"scale": [2, 2, 2]
+		}
+	}
+}

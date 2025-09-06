@@ -1,0 +1,30 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "model": "minecraft:item/stone_axe",
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "model",
+          "model": "item/weapon/spear/stone_spear"
+        }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "model",
+          "model": "item/weapon/spear/stone_scythe"
+        }
+      }
+      
+      
+      
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/stone_axe"
+    }
+  }
+}

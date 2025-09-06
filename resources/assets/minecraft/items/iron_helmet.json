@@ -1,0 +1,23 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "model": "minecraft:item/iron_helmet",
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "model",
+          "model": "item/armor/curse"
+        }
+      }
+      
+      
+      
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/iron_helmet"
+    }
+  }
+}

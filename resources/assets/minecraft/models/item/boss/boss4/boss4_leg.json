@@ -1,0 +1,54 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/black_concrete",
+		"particle": "block/black_concrete"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 0.5],
+			"to": [9, 2, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1, 5]},
+			"faces": {
+				"north": {"uv": [0, 0, 1, 1], "rotation": 270, "tintindex": 0,"texture": "#0"},
+				"east": {"uv": [0, 0, 1, 1], "rotation": 270, "tintindex": 0,"texture": "#0"},
+				"south": {"uv": [0, 0, 1, 1], "rotation": 270, "tintindex": 0,"texture": "#0"},
+				"west": {"uv": [0, 0, 1, 1], "rotation": 270, "tintindex": 0,"texture": "#0"},
+				"up": {"uv": [0, 0, 1, 1], "rotation": 270, "tintindex": 0,"texture": "#0"},
+				"down": {"uv": [0, 0, 1, 1], "rotation": 270, "tintindex": 0,"texture": "#0"}
+			}
+		},
+		{
+			"from": [7.25, -7.75417, -2.23587],
+			"to": [8.75, 2.24583, -0.73587],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, -4.75417, -1.48587]},
+			"faces": {
+				"north": {"uv": [0, 0, 1, 1], "rotation": 90, "tintindex": 0,"texture": "#0"},
+				"east": {"uv": [0, 0, 1, 1], "tintindex": 0,"texture": "#0"},
+				"south": {"uv": [0, 0, 1, 1], "rotation": 270, "tintindex": 0,"texture": "#0"},
+				"west": {"uv": [0, 0, 1, 1], "rotation": 180, "tintindex": 0,"texture": "#0"},
+				"up": {"uv": [0, 0, 1, 1], "rotation": 270, "tintindex": 0,"texture": "#0"},
+				"down": {"uv": [0, 0, 1, 1], "rotation": 90, "tintindex": 0,"texture": "#0"}
+			}
+		},
+		{
+			"from": [7.25, -8.63528, -7.07579],
+			"to": [8.75, -7.13528, -2.07579],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, -7.88528, -4.07579]},
+			"faces": {
+				"north": {"uv": [0, 0, 1, 1], "rotation": 270, "tintindex": 0,"texture": "#0"},
+				"east": {"uv": [0, 0, 1, 1], "rotation": 270, "tintindex": 0,"texture": "#0"},
+				"south": {"uv": [0, 0, 1, 1], "rotation": 270, "tintindex": 0,"texture": "#0"},
+				"west": {"uv": [0, 0, 1, 1], "rotation": 270, "tintindex": 0,"texture": "#0"},
+				"up": {"uv": [0, 0, 1, 1], "rotation": 270, "tintindex": 0,"texture": "#0"},
+				"down": {"uv": [0, 0, 1, 1], "rotation": 270, "tintindex": 0,"texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, 29.25, -0.25],
+			"scale": [4, 4, 4]
+		}
+	}
+}

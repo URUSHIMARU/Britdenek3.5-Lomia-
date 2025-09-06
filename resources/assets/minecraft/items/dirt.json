@@ -1,0 +1,44 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "model": "minecraft:block/dirt",
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "model",
+          "model": "item/other/blue_coin"
+        }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "model",
+          "model": "item/other/red_coin"
+        }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "model",
+          "model": "item/other/green_coin"
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "type": "model",
+          "model": "item/armor/curse"
+        }
+      }
+
+      
+      
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/dirt"
+    }
+  }
+}

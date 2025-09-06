@@ -10,7 +10,7 @@ Can you, who were sent to this city by a mysterious entity, solve this incident?
 ●Data Breakdown
 readme (English): English instructions
 readme (日本語):Japanese instructions
-Britdenek3.5-Lomia-ver1.0.0: World data.
+Britdenek3.5-Lomia-ver1.0.2: World data.
 
 ● Detailed Explanation
 
@@ -163,4 +163,4 @@ Thank you so much to everyone who helped with development and downloaded this wo
 ●Version Update History
 2025/08/11 ver1.0.0 Released
 2025/08/15 ver1.0.1 Fixed a bug where rewards from the Romia Arena were not being paid.
-
+2025/09/06 ver1.0.2 Removed MP recovery sound, fixed missing pages in book, removed magic Tornado, made arena brighter at night, reduced boss block bug, fixed Lomia Arena bug

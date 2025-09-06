@@ -1,0 +1,1974 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "model": "minecraft:block/white_stained_glass",
+    "entries": [
+      {
+        "threshold": 101,
+        "model": {
+          "type": "model",
+          "model": "item/magic/summon_fire1"
+        }
+      },
+      {
+        "threshold": 102,
+        "model": {
+          "type": "model",
+          "model": "item/magic/summon_fire2"
+        }
+      },
+      {
+        "threshold": 103,
+        "model": {
+          "type": "model",
+          "model": "item/magic/summon_ice1"
+        }
+      },
+      {
+        "threshold": 104,
+        "model": {
+          "type": "model",
+          "model": "item/magic/summon_ice2"
+        }
+      },
+      {
+        "threshold": 106,
+        "model": {
+          "type": "model",
+          "model": "item/magic/summon_wind"
+        }
+      },
+      {
+        "threshold": 107,
+        "model": {
+          "type": "model",
+          "model": "item/magic/summon_earth1"
+        }
+      },
+      {
+        "threshold": 108,
+        "model": {
+          "type": "model",
+          "model": "item/magic/summon_earth2"
+        }
+      },
+      {
+        "threshold": 109,
+        "model": {
+          "type": "model",
+          "model": "item/magic/summon_dead"
+        }
+      },
+      {
+        "threshold": 110,
+        "model": {
+          "type": "model",
+          "model": "item/magic/fire"
+        }
+      },      
+      
+      
+      
+      
+      {
+        "threshold": 1000,
+        "model": {
+          "type": "model",
+          "model": "item/null"
+        }
+      },
+      {
+        "threshold": 1001,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss1/boss1_body",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1002,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss1/boss1_arm",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1003,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss1/boss1_leg",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      
+      
+      {
+        "threshold": 1004,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss2/boss2_base",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1005,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss2/boss2_close",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1006,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss2/boss2_flap1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1007,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss2/boss2_flap2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1008,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss2/boss2_flap3",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1009,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss2/boss2_flap4",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1010,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss2/boss2_flap5",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1011,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss2/boss2_flap6",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1012,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss2/boss2_flap7",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1013,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss2/boss2_flap8",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1014,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss2/boss2_flap9",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1015,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss2/boss2_flap10",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1016,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss2/boss2_flap11",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1017,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss2/boss2_flap12",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1018,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss2/boss2_flap13",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1019,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss2/boss2_flap14",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1020,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss2/boss2_flap15",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      
+      
+      {
+        "threshold": 1021,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss3/boss3_attack1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1022,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss3/boss3_attack2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1023,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss3/boss3_body1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1024,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss3/boss3_body2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1025,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss3/boss3_head1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1026,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss3/boss3_head2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1027,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss3/boss3_leg1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1028,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss3/boss3_leg2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1029,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss3/boss3_wing1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1030,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss3/boss3_wing2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      
+      
+      
+      
+      {
+        "threshold": 1031,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss4/boss4_attack1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1032,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss4/boss4_body1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1033,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss4/boss4_body2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1034,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss4/boss4_head",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1035,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss4/boss4_arm",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1036,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss4/boss4_leg",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      
+      
+      
+      
+      {
+        "threshold": 1037,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss5/boss5_0body",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1038,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss5/boss5_0head",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1039,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss5/boss5_0left_arm",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1040,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss5/boss5_0left_leg",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1041,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss5/boss5_0right_arm",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1042,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss5/boss5_0right_leg",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1043,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss5/boss5_attack1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1044,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss5/boss5_attack2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1045,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss5/boss5_attack3",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1046,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss5/boss5_body",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1047,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss5/boss5_head1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1048,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss5/boss5_head2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1049,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss5/boss5_left_arm1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1050,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss5/boss5_left_arm2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1051,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss5/boss5_leg",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1052,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss5/boss5_neck",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1053,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss5/boss5_right_arm1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1054,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss5/boss5_right_arm2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1055,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss5/boss5_tail1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1056,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss5/boss5_tail2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      
+      
+      
+      {
+        "threshold": 1057,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss6/boss6_arm",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1058,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss6/boss6_body",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1059,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss6/boss6_head1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1060,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss6/boss6_head2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1061,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss6/boss6_leg",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1062,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss6/boss6_wing",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      
+      
+      {
+        "threshold": 1063,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss7/boss7_body",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1064,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss7/boss7_head",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1065,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss7/boss7_left_arm",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1066,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss7/boss7_leg",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1067,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss7/boss7_right_arm",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1068,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss7/boss7_shield",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1069,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss7/boss7_sword",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      
+      
+      {
+        "threshold": 1071,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss8/boss8_arm1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1070,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss8/boss8_arm2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1072,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss8/boss8_body",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1073,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss8/boss8_body2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1074,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss8/boss8_head",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      
+      
+      {
+        "threshold": 1075,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss9/boss9_blade",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1076,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss9/boss9_fire",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1077,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss9/boss9_body",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1078,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss9/boss9_head",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1079,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss9/boss9_leftarm",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1080,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss9/boss9_rightarm",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1081,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss9/boss9_wing",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      
+      
+      
+      {
+        "threshold": 1082,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss10/boss10_body1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1083,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss10/boss10_body2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1084,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss10/boss10_left_arm",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1085,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss10/boss10_right_arm",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1086,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss10/boss10_leg",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1087,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss10/boss10_flower",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1088,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss10/boss10_root1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1089,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss10/boss10_root2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1090,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss10/boss10_wall",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      }
+      
+      
+      
+      ,
+      {
+        "threshold": 1091,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss11/boss11_body1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1092,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss11/boss11_body2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1093,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss11/boss11_head",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1094,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss11/boss11_left_arm",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1095,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss11/boss11_left_leg",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1096,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss11/boss11_right_arm",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1097,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss11/boss11_right_leg",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1098,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss11/boss11attack",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      
+      
+      
+      
+      
+      {
+        "threshold": 1099,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss12/boss12_body1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1100,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss12/boss12_body2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1101,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss12/boss12_head",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1102,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss12/boss12_left_arm",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1103,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss12/boss12_left_leg",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1104,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss12/boss12_right_arm",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1105,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss12/boss12_right_leg",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1106,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss12/boss12attack",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      
+      
+      
+      {
+        "threshold": 1107,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss13/boss13_body",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1108,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss13/boss13_body2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1109,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss13/boss13_head2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1110,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss13/boss13_left_arm",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1111,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss13/boss13_left_arm2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1112,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss13/boss13_left_leg",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1113,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss13/boss13_right_arm",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1114,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss13/boss13_right_arm2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1115,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss13/boss13_right_leg",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1116,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss13/gold",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1117,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss13/gold_spear",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      
+      
+      
+      
+      {
+        "threshold": 1118,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss14/boss14_body",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1119,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss14/boss14_head1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1120,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss14/boss14_head2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1121,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss14/boss14_tail1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1122,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss14/boss14_tail2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1123,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss14/stone",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      
+      
+      
+      
+      
+      {
+        "threshold": 1124,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss15/boss15_body",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1125,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss15/boss15_eye1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1126,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss15/boss15_leg",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1127,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss15/gate",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1128,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss15/tentacle1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1129,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss15/tentacle2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1130,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss15/tentacle3",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1131,
+        "model": {
+          "type": "model",
+          "model": "minecraft:block/stone",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1132,
+        "model": {
+          "type": "model",
+          "model": "minecraft:block/anvil",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1133,
+        "model": {
+          "type": "model",
+          "model": "minecraft:block/crying_obsidian",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1134,
+        "model": {
+          "type": "model",
+          "model": "minecraft:block/anvil",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1135,
+        "model": {
+          "type": "model",
+          "model": "minecraft:block/reinforced_deepslate",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1136,
+        "model": {
+          "type": "model",
+          "model": "minecraft:block/tnt",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1137,
+        "model": {
+          "type": "model",
+          "model": "minecraft:block/dragon_egg",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      
+      
+      
+      
+      {
+        "threshold": 1138,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss16/boss16_body",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1139,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss16/boss16_arm1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1140,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss16/boss16_arm2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1141,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss16/boss16_leg1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1142,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss16/boss16_leg2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1143,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss16/boss16_weapon",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      
+      
+      
+      
+      {
+        "threshold": 1144,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss17/boss17_body",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1145,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss17/boss17_head",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1146,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss17/boss17_leg1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1147,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss17/boss17_leg21",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1148,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss17/boss17_leg22",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      
+      
+      
+      
+      
+      {
+        "threshold": 1149,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss18/boss18_arm11",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1150,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss18/boss18_arm12",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1151,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss18/boss18_arm21",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1152,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss18/boss18_arm22",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1153,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss18/boss18_body",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1154,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss18/boss18_body2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1155,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss18/boss18_head1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1156,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss18/boss18_head2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1157,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss18/boss18_head3",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1158,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss18/boss18_head4",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1159,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss18/boss18_leg1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1160,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss18/boss18_leg2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1161,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss18/boss18_tail",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1162,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss18/parasite",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      
+      
+      
+      
+      
+      
+      {
+        "threshold": 1163,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss19/boss19_arm1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1164,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss19/boss19_arm2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1165,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss19/boss19_body1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1166,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss19/boss19_body2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1167,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss19/boss19_weapon1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1168,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss19/boss19_weapon2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1169,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss19/boss19_weapon3",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      
+      
+      
+      
+      
+      
+      {
+        "threshold": 1170,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss20/boss20_arm1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1171,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss20/boss20_arm2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1172,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss20/boss20_body",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1173,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss20/boss20_head",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1174,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss20/boss20_wing1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1175,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss20/boss20_wing2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1176,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss20/shadow",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1177,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss20/spear",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      
+      
+      
+      
+      
+      {
+        "threshold": 1178,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss21/boss21_arm1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1179,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss21/boss21_arm2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1180,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss21/boss21_body",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1181,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss21/boss21_arm1wep1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1182,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss21/boss21_arm1wep2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1183,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss21/boss21_arm2wep1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1184,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss21/boss21_arm2wep3",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1185,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss21/boss21_weapon1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1186,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss21/boss21_weapon2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      
+      
+      
+      
+      
+      {
+        "threshold": 1187,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss22/boss22_body",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1188,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss22/boss22_body1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1189,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss22/boss22_body2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1190,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss22/boss22_body3",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1191,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss22/boss22_arm1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1192,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss22/boss22_arm2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1193,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss22/boss22_mouth",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1194,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss22/boss22_needle",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1195,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss22/boss22_sub_arm1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1196,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss22/boss22_sub_head1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1197,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss22/boss22_wave",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1198,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss22/boss22_egg",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1199,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss22/boss22_attack1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      
+      
+      
+      
+      {
+        "threshold": 1200,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss23/boss23_body",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1201,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss23/boss23_arm1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1202,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss23/boss23_arm2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1203,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss23/boss23_tail",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      
+      
+      {
+        "threshold": 1204,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss24/boss24_body",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1205,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss24/boss24_arm1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1206,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss24/boss24_arm2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1207,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss24/boss24_leg1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1208,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss24/boss24_leg2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      
+      
+      {
+        "threshold": 1209,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss25/boss25_body",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1210,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss25/boss25_arm1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1211,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss25/boss25_arm2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1212,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss25/boss25_leg1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1213,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss25/boss25_leg2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      
+      
+      
+      
+      {
+        "threshold": 1214,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss26/boss26_body1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1215,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss26/boss26_arm1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1216,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss26/boss26_arm2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1217,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss26/boss26_leg1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1218,
+        "model": {
+          "type": "model",
+          "model": "item/boss/boss26/boss26_leg2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      
+      
+      
+      
+      
+      {
+        "threshold": 1219,
+        "model": {
+          "type": "model",
+          "model": "item/boss/racolondo/body_over",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1220,
+        "model": {
+          "type": "model",
+          "model": "item/boss/racolondo/body_under",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1221,
+        "model": {
+          "type": "model",
+          "model": "item/boss/racolondo/arm1",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1222,
+        "model": {
+          "type": "model",
+          "model": "item/boss/racolondo/arm2",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      },
+      {
+        "threshold": 1223,
+        "model": {
+          "type": "model",
+          "model": "item/boss/racolondo/view",
+          "tints":[{"type":"minecraft:dye","default":167115}]
+        }
+      }
+      
+      
+      
+      
+      
+      
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/white_stained_glass"
+    }
+  }
+}
