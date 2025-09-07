@@ -62,7 +62,7 @@ execute if score #difficulty difficulty matches 0 run scoreboard players add @s 
 execute if entity @s[tag=star_syrup,scores={star_syrup=1..}] run scoreboard players remove @s maxHealthBase 20
 execute if entity @s[tag=star_syrup,scores={star_syrup=10..}] run scoreboard players remove @s maxHealthBase 40
 execute if entity @s[tag=star_syrup,scores={star_syrup=20..}] run scoreboard players remove @s maxHealthBase 80
-execute if entity @s[tag=star_syrup,scores={star_syrup=1..}] run scoreboard players remove @s mpHealBase 20
+execute if entity @s[tag=star_syrup,scores={star_syrup=1..}] run scoreboard players remove @s mpHealBase 10
 execute if entity @s[tag=star_syrup,scores={star_syrup=10..}] run scoreboard players remove @s mpHealBase 40
 execute if entity @s[tag=star_syrup,scores={star_syrup=20..}] run scoreboard players remove @s mpHealBase 80
 execute if entity @s[tag=star_syrup,scores={star_syrup=1..}] run scoreboard players remove @s attackSpeedBase 1
@@ -71,7 +71,7 @@ execute if entity @s[tag=star_syrup,scores={star_syrup=20..}] run scoreboard pla
 execute if entity @s[tag=star_syrup,scores={star_syrup=1..}] run scoreboard players remove @s magicAttackBase 10
 execute if entity @s[tag=star_syrup,scores={star_syrup=10..}] run scoreboard players remove @s magicAttackBase 20
 execute if entity @s[tag=star_syrup,scores={star_syrup=20..}] run scoreboard players remove @s magicAttackBase 40
-
+execute if entity @s[scores={mpHealBase=..0}] run scoreboard players set @s mpHealBase 0
 #ナイトメア
 execute if score #difficulty difficulty matches 4 run scoreboard players operation @s maxHealthBase /= #2 cal
 execute if score #difficulty difficulty matches 4 run scoreboard players operation @s magicAttackBase /= #2 cal
