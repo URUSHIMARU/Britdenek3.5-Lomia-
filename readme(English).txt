@@ -165,3 +165,4 @@ Thank you so much to everyone who helped with development and downloaded this wo
 2025/08/15 ver1.0.1 Fixed a bug where rewards from the Romia Arena were not being paid.
 2025/09/06 ver1.0.2 Removed MP recovery sound, fixed missing pages in book, removed magic Tornado, made arena brighter at night, reduced boss block bug, fixed Lomia Arena bug
 2025/09/14 ver1.0.3 Fixed an issue where Fighting Spirit could not be obtained
+2025/09/18 ver1.0.4 Fixed a bug where rewards from the Romia Arena were not being paid.

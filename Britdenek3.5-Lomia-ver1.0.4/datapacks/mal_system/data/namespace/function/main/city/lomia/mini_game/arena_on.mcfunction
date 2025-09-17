@@ -5,6 +5,9 @@
 execute as @a[x=-361,y=92,z=921,dx=2,dy=5,dz=3] at @s run tellraw @s {"translate":"system.system.lomia.arena.announce.19","color":"red"}
 execute as @a[x=-361,y=92,z=921,dx=2,dy=5,dz=3] at @s run tp @s -363 92 923 90 ~
 
+#コイン落とし不正対策
+execute as @e[x=-331,y=91,z=885,dx=30,dy=50,dz=30,type=item] at @s run data merge entity @s {PickupDelay:0}
+
 
 #アリーナボス操作
 execute if entity @e[tag=boss11_lomia] run function namespace:main/boss/boss11_lomia/const
@@ -35,10 +38,10 @@ execute if score #end_count lomia matches 200 as @a[x=-468,y=85,z=861,dx=193,dy=
 execute if score #end_count lomia matches 150 as @a[x=-468,y=85,z=861,dx=193,dy=100,dz=110] at @s run playsound minecraft:block.note_block.hat master @s
 execute if score #end_count lomia matches 150 as @a[x=-468,y=85,z=861,dx=193,dy=100,dz=110] at @s if score #lomia_win lomia matches 1 run tellraw @s [{"translate":"system.system.lomia.arena.announce.12"},{"color":"aqua","translate":"system.system.lomia.arena.announce.13.1"}]
 execute if score #end_count lomia matches 150 as @a[x=-468,y=85,z=861,dx=193,dy=100,dz=110] at @s if score #lomia_win lomia matches 2 run tellraw @s [{"translate":"system.system.lomia.arena.announce.12"},{"color":"red","translate":"system.system.lomia.arena.announce.13.2"}]
-execute if score #end_count lomia matches 150 as @a[x=-468,y=85,z=861,dx=193,dy=100,dz=110] at @s if score #lomia_win lomia matches 3 run tellraw @s [{"translate":"system.system.lomia.arena.announce.12"},{"color":"red","translate":"system.system.lomia.arena.announce.13.3"}]
-execute if score #end_count lomia matches 150 as @a[x=-468,y=85,z=861,dx=193,dy=100,dz=110] at @s if score #lomia_win lomia matches 1 run execute as @a[x=-331,y=91,z=885,dx=30,dy=50,dz=30] at @s run function namespace:main/city/lomia/mini_game/arena/blue_win
-execute if score #end_count lomia matches 150 as @a[x=-468,y=85,z=861,dx=193,dy=100,dz=110] at @s if score #lomia_win lomia matches 2 run execute as @a[x=-331,y=91,z=885,dx=30,dy=50,dz=30] at @s run function namespace:main/city/lomia/mini_game/arena/red_win
-execute if score #end_count lomia matches 150 as @a[x=-468,y=85,z=861,dx=193,dy=100,dz=110] at @s if score #lomia_win lomia matches 3 run execute as @a[x=-331,y=91,z=885,dx=30,dy=50,dz=30] at @s run function namespace:main/city/lomia/mini_game/arena/draw
+execute if score #end_count lomia matches 150 as @a[x=-468,y=85,z=861,dx=193,dy=100,dz=110] at @s if score #lomia_win lomia matches 3 run tellraw @s [{"translate":"system.system.lomia.arena.announce.12"},{"color":"yellow","translate":"system.system.lomia.arena.announce.13.3"}]
+execute if score #end_count lomia matches 150 as @a[x=-468,y=85,z=861,dx=193,dy=100,dz=110] at @s if score #lomia_win lomia matches 1 run execute as @s[x=-331,y=91,z=885,dx=30,dy=50,dz=30] at @s run function namespace:main/city/lomia/mini_game/arena/blue_win
+execute if score #end_count lomia matches 150 as @a[x=-468,y=85,z=861,dx=193,dy=100,dz=110] at @s if score #lomia_win lomia matches 2 run execute as @s[x=-331,y=91,z=885,dx=30,dy=50,dz=30] at @s run function namespace:main/city/lomia/mini_game/arena/red_win
+execute if score #end_count lomia matches 150 as @a[x=-468,y=85,z=861,dx=193,dy=100,dz=110] at @s if score #lomia_win lomia matches 3 run execute as @s[x=-331,y=91,z=885,dx=30,dy=50,dz=30] at @s run function namespace:main/city/lomia/mini_game/arena/draw
 execute if score #end_count lomia matches 100 as @a[x=-468,y=85,z=861,dx=193,dy=100,dz=110] at @s run playsound minecraft:block.note_block.hat master @s
 execute if score #end_count lomia matches 100 as @a[x=-468,y=85,z=861,dx=193,dy=100,dz=110] at @s if score #lomia_win lomia matches 1 run tellraw @s {"translate":"system.system.lomia.arena.announce.14.1"}
 execute if score #end_count lomia matches 100 as @a[x=-468,y=85,z=861,dx=193,dy=100,dz=110] at @s if score #lomia_win lomia matches 2 run tellraw @s {"translate":"system.system.lomia.arena.announce.14.2"}
