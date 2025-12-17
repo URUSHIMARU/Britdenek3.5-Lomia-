@@ -101,7 +101,7 @@ A: If you're using Britdenek3.5-Lomia- version 1.0.4 or later, you can update th
 Q: What is MAL-Link?
 A: It is a marking for data packs that can be used without conflicts.
    If the data pack is compatible with the same version of MAL-Link, you can play with it by installing it in this world.
-   A list of introductory videos for data packs that are compatible with MAL-Link can be found here. ""
+   A list of introductory videos for data packs that are compatible with MAL-Link can be found here. "https://studio.youtube.com/playlist/PLixgLaVoiz6isvZ7QLB3L8UOfKmX1CpyV/edit"
 
 Q: Can I use this for videos or live streams?
 A: You are free to create videos and live streams. However, please include the following credits:
