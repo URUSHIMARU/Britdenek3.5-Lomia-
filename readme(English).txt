@@ -10,7 +10,10 @@ Can you, who were sent to this city by a mysterious entity, solve this incident?
 ●Data Breakdown
 readme (English): English instructions
 readme (日本語):Japanese instructions
-Britdenek3.5-Lomia-ver1.0.2: World data.
+Britdenek3.5-Lomia-ver1.1.0: World data.
+resources_ver1.1.0.zip: This is a resource pack specifically for this world.
+update_file: This is data for updating the older version of Britdenek3.5-Lomia-.
+             Please see the Q&A for instructions on how to use it.
 
 ● Detailed Explanation
 
@@ -18,10 +21,11 @@ Estimated clear time is about 2 to 6 hours.
 
 For feedback, advice, or anything else, please use this forum, my X (https://x.com/gol559), or the comment section of this world's trailer (https://youtu.be/EKQ6nWwSyrY). 
 
+Compatible with MAL-Link 1.21.11
 
 ◎ Required Settings
 
-Version is 1.21.8 (If you enter with a version below 1.21.7 or above 1.21.9, please re-install the world). 
+Version is 1.21.11 
 
 Particle display: All 
 
@@ -41,7 +45,6 @@ Play in a vanilla environment with no MODs (It is not designed to work with MODs
 
 ○ Recommended Settings for Multiplayer
 Please enter the following information in the server properties:
-resource-pack=https://drive.google.com/uc?export=download&id=1x1cYHYLV_3Ne6wvv1XclSOlR6BestUS5
 pvp=false
 enable-command-block=true
 
@@ -83,14 +86,22 @@ A: In this world, sleeping provides bonuses.
 Q: I drank Star Syrup and the debuff won't go away...
 A: The debuff from Star Syrup will not disappear unless you drink Earth's Dew. 
 
-Q: I don't have enough money!
-A: Try exploring dungeons or listening to people's requests in the city. Also, what if you try fishing...? 
-
 Q: Is __ a bug or a feature?
 A: Please contact me on the forum where the world is distributed or via my X (@gol559), and I will respond as much as possible. When reporting a bug, it would be helpful if you could provide information such as the version and whether it's single-player or multiplayer. 
 
-Q: Can I play on versions before 1.21.7 or after 1.21.9?
-A: It is not covered by compensation, so please refrain from playing. 
+Q: I want to carry over my progress from an older version of Lomia.
+A: If you're using Britdenek3.5-Lomia- version 1.0.4 or later, you can update the version by using the included update_file data as follows.
+   1. Delete the "resources.zip" file from the save data of your older version of Britdenek3.5-Lomia-.
+   2. Place the "resources.zip" file included in the "update_file" into the save data of your older version of Britdenek3.5-Lomia-.
+   3. Open the "datapakcs" folder in the save data of your older version of Britdenek3.5-Lomia-.
+   4. Delete the "mal_system" folder inside the folder.
+   5. Place the "mal_system" folder included in the "update_file" into the "datapakcs" folder in your save data of Britdenek3.5-Lomia-.
+   6. If the version name displayed when you enter the world is the latest version, then the installation was successful.
+
+Q: What is MAL-Link?
+A: It is a marking for data packs that can be used without conflicts.
+   If the data pack is compatible with the same version of MAL-Link, you can play with it by installing it in this world.
+   A list of introductory videos for data packs that are compatible with MAL-Link can be found here. ""
 
 Q: Can I use this for videos or live streams?
 A: You are free to create videos and live streams. However, please include the following credits:
@@ -166,3 +177,4 @@ Thank you so much to everyone who helped with development and downloaded this wo
 2025/09/06 ver1.0.2 Removed MP recovery sound, fixed missing pages in book, removed magic Tornado, made arena brighter at night, reduced boss block bug, fixed Lomia Arena bug
 2025/09/14 ver1.0.3 Fixed an issue where Fighting Spirit could not be obtained
 2025/09/18 ver1.0.4 Fixed a bug where rewards from the Romia Arena were not being paid.
+2025/12/17 ver1.1.0 Compatible with Minecraft ver1.21.11. Compatible with MAL-Link.
