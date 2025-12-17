@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "stone"
+    },
+    "title": "",
+    "description": "",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "namespace:all/root",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{SelectedItem:{components:{\"minecraft:custom_data\":{\"bow\":true}}}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "namespace:main/advancement/item/skill/kill_with_bow"
+  }
+}

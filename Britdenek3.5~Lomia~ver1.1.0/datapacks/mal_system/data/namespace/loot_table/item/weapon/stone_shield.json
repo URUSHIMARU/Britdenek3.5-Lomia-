@@ -1,0 +1,107 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 1,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    0
+                  ]
+                },
+                "banner_patterns":[{"pattern":"minecraft:bricks","color":"gray"},{"pattern":"minecraft:border","color":"black"},{"pattern":"minecraft:border","color":"gray"}],
+                "minecraft:tooltip_display":{
+                  "hidden_components":[
+                    "attribute_modifiers",
+                    "banner_patterns"
+                  ]
+                },
+                "minecraft:attribute_modifiers":[
+                  {
+                    "id":"armor",
+                  "type":"armor",
+                  "amount":0,
+                  "operation":"add_value"
+                }
+                ],
+                "minecraft:custom_data": {
+                  "offhand":true,
+                  "species": "shield",
+                  "sword": false,
+                  "spear": false,
+                  "axe": false,
+                  "bow": false,
+                  "shield": true,
+                  "value": 20,
+                  "maxHealthBaseOff":40
+                },
+                "minecraft:custom_name": {
+                  "translate": "system.item.shield.name.2",
+                  "color": "white",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                [
+                  {
+                    "translate": "system.sell.emerald",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  {
+                    "text": "\uF000",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "×2",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "translate": "system.item.shiled",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "system.item.weapon.param2",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "translate": "system.item.param.max_health",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "4",
+                    "color": "green",
+                    "italic": false
+                  }
+                ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": []
+}

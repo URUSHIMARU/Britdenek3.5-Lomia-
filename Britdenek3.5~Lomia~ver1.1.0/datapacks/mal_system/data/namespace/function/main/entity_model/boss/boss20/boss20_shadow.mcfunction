@@ -1,0 +1,2 @@
+function namespace:main/entity_model/boss_template_body {id:"1176",entity:"armor_stand",scale:1}
+data merge entity @e[tag=boss_first,limit=1,sort=nearest,distance=0] {Marker:1b,Invisible:1b,Invulnerable:1b,Tags:["boss20","boss","enemy","shadow"]}

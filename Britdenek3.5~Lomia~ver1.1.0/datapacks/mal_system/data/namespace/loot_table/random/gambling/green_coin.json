@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:item/other/lomia_green_coin",
+          "weight": 1,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 5,
+                "min": 5
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

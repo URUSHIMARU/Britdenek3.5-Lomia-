@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "stone"
+    },
+    "title": "",
+    "description": "",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "namespace:all/root",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+          "entity": {
+              "type": "villager",
+              "nbt": "{Tags:[npc21]}"
+          }
+      }
+    }
+  },
+  "rewards": {
+    "function": "namespace:main/advancement/system/talk/npc21"
+  }
+}

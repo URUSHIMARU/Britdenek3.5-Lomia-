@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dirt",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 99,
+                "minecraft:custom_data": {
+                  "value": -1
+                },
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    3
+                  ]
+                },           
+								"minecraft:custom_name": {
+									"translate": "system.item.other.name.5",
+									"color": "green",
+									"italic": false
+								},                     
+                "minecraft:lore": [
+                {
+                  "translate": "system.item.other.lore.5.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "system.item.other.lore.5.2",
+                  "color": "white",
+                  "italic": false
+                }                
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": []
+}

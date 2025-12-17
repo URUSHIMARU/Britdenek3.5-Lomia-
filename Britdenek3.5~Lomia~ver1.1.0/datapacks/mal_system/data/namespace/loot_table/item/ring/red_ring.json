@@ -1,0 +1,80 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:light_gray_stained_glass",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 1,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    2
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "species": "ring",
+                  "slot_number": 6,
+                  "value": 100,
+                  "mpHealBase":2
+                },
+                "minecraft:custom_name": {
+                  "translate": "system.item.ring.name.2",
+                  "color": "white",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                [
+                  {
+                    "translate": "system.sell.emerald",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  {
+                    "text": "\uF000",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "×10",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                {
+                  "translate": "system.item.ring",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": "",
+                  "color": "white",
+                  "italic": false
+                },
+                [
+                  {
+                    "translate": "system.item.param.heal_mp",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "+10%",
+                    "color": "green",
+                    "italic": false
+                  }
+                ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": []
+}

@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 16,
+                "minecraft:custom_data": {
+                  "value": 0
+                },
+                "written_book_content":{
+                  "author":"",
+                  "title":"",
+                  "generation":0,
+                  "pages":[
+                    {"translate":"item.book.0.page.1"},
+                    {"translate":"item.book.0.page.2"},
+                    {"translate":"item.book.0.page.3"}
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "translate": "item.book.0.title",
+                  "color": "white",
+                  "italic": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": []
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "namespace:skill/normal/skill21",
+  "display": {
+    "icon": {
+      "id": "minecraft:light_gray_stained_glass",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            122
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancement.skill.root.skill.22.name"
+    },
+    "description": {
+      "translate": "advancement.skill.root.skill.22.description"
+    },
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    " ": {
+      "trigger": "minecraft:killed_by_arrow",
+      "conditions": {
+        "victims": [
+          {
+            "distance": {
+              "horizontal": {
+                "min": 40
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "namespace:main/advancement/skill/skill22"
+  }
+}

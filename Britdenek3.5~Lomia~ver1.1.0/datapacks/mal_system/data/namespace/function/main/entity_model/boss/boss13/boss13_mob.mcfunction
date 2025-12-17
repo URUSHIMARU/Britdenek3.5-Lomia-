@@ -1,0 +1,4 @@
+execute if score #difficulty difficulty matches ..1 run function namespace:main/entity_model/mob_template {entity:"zombie",scale:1.5,health:20,mainhand_id:0,offhand_id:1000,head_id:0,legs_id:0,feet_id:0,chest_id:0,mainhand:"golden_sword",offhand:"white_stained_glass",head:"golden_helmet",chest:"golden_chestplate",legs:"golden_leggings",feet:"golden_boots"}
+execute if score #difficulty difficulty matches 2.. run function namespace:main/entity_model/mob_template {entity:"zombie",scale:1.5,health:40,mainhand_id:0,offhand_id:1000,head_id:0,legs_id:0,feet_id:0,chest_id:0,mainhand:"golden_sword",offhand:"white_stained_glass",head:"golden_helmet",chest:"golden_chestplate",legs:"golden_leggings",feet:"golden_boots"}
+data merge entity @e[tag=mob_first,limit=1,sort=nearest,distance=..1] {Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Tags:["undead","boss13_attack1","boss13_attack","boss","enemy","undead"]}
+

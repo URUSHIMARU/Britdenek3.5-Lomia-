@@ -1,0 +1,267 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:mal_link/mal_shooter/material/amethyst_block",
+          "weight": 1,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 2,
+                "min": 2
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:mal_link/mal_shooter/material/amethyst_shard",
+          "weight": 1,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 2,
+                "min": 2
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:mal_link/mal_shooter/material/blaze_powder",
+          "weight": 1,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 2,
+                "min": 2
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:mal_link/mal_shooter/material/crying_obsidian",
+          "weight": 1,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 2,
+                "min": 2
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:mal_link/mal_shooter/material/emerald_block",
+          "weight": 1,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 1,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:mal_link/mal_shooter/material/gunpowder",
+          "weight": 1,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 2,
+                "min": 2
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:mal_link/mal_shooter/material/iron_block",
+          "weight": 1,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 1,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:mal_link/mal_shooter/material/oak_log",
+          "weight": 1,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 2,
+                "min": 2
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:mal_link/mal_shooter/material/obsidian",
+          "weight": 1,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 2,
+                "min": 2
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:mal_link/mal_shooter/material/redsone_block",
+          "weight": 1,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 1,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:mal_link/mal_shooter/material/sea_lantern",
+          "weight": 1,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 2,
+                "min": 2
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:mal_link/mal_shooter/material/spider_eye",
+          "weight": 1,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 2,
+                "min": 2
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:mal_link/mal_shooter/material/stick",
+          "weight": 1,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 4,
+                "min": 2
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:mal_link/mal_shooter/material/stone",
+          "weight": 1,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 2,
+                "min": 2
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:mal_link/mal_shooter/material/water_bucket",
+          "weight": 1,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 2,
+                "min": 2
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "namespace:item/weapon/crossbow",
+          "weight": 1,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+
+                "max": 2,
+                "min": 2
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:emerald"
+	},
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"result": {
+		"count": 1,
+		"id": "minecraft:emerald_block",
+		"components": {
+			"minecraft:max_stack_size": 99,
+			"minecraft:custom_data": {
+				"value": -1
+			}
+		}
+	}
+}

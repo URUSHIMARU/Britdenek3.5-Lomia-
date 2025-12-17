@@ -1,0 +1,72 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:custom_model_data": {
+									"floats": [
+										102
+									]
+								},
+								"minecraft:custom_data": {
+									"species": "magic",
+									"value": 150,
+                  					"magic":2
+								},
+								"minecraft:custom_name": {
+									"translate": "system.magic2.name",
+									"color": "yellow",
+									"italic": false
+								},
+								"minecraft:lore": [
+									[
+										{
+											"translate": "system.sell.emerald",
+											"color": "gold",
+											"italic": false
+										},
+										{
+											"text": "\uF000",
+											"color": "white",
+											"italic": false
+										},
+										{
+											"text": "×15",
+											"color": "gold",
+											"italic": false
+										}
+									],
+									{
+										"translate": "system.magic2.lore1",
+										"color": "white",
+										"italic": false
+									},									
+									{
+										"translate": "system.magic2.lore2",
+										"color": "white",
+										"italic": false
+									},
+									{
+										"translate": "system.magic2.lore3",
+										"color": "white",
+										"italic": false
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"functions": []
+}

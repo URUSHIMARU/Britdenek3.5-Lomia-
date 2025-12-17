@@ -1,0 +1,4 @@
+execute if score #difficulty difficulty matches ..1 run function namespace:main/entity_model/mob_template {entity:"skeleton",scale:1,health:20,mainhand_id:0,offhand_id:1000,head_id:0,legs_id:0,feet_id:0,chest_id:0,mainhand:"bow",offhand:"air",head:"air",chest:"air",legs:"air",feet:"air"}
+execute if score #difficulty difficulty matches 2.. run function namespace:main/entity_model/mob_template {entity:"wither_skeleton",scale:1,health:30,mainhand_id:0,offhand_id:1000,head_id:0,legs_id:0,feet_id:0,chest_id:0,mainhand:"bow",offhand:"air",head:"air",chest:"air",legs:"air",feet:"air"}
+data merge entity @e[tag=mob_first,limit=1,sort=nearest,distance=..1] {DeathLootTable:"namespace:drop/drop_class_e_mob",PersistenceRequired:1b,Tags:["undead","boss1002","body","boss","enemy","undead"]}
+

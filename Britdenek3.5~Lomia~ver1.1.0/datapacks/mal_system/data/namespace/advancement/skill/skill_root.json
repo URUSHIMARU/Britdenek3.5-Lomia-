@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1002
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancement.skill.root.name"
+    },
+    "description": {
+      "translate": "advancement.skill.root.description"
+    },
+    "background": "minecraft:block/crying_obsidian",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    " ": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

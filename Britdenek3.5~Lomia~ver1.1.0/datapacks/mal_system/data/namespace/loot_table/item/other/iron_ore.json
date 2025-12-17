@@ -1,0 +1,63 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ore",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 64,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    0
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "species": "item",
+                  "sword": false,
+                  "spear": false,
+                  "axe": false,
+                  "bow": false,
+                  "shield": false,
+                  "value": 7,
+                  "attackBase": 10,
+                  "attackSpeedBase":40,
+                  "attackRangeBase":45,
+                  "bowAttackBase":10,
+                  "magicAttackBase":0,
+                  "guardBase":0,
+                  "mpHealBase":20
+                },
+                "minecraft:lore": [
+                [
+                  {
+                    "translate": "system.sell.emerald",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  {
+                    "text": "\uF000",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "×0.7",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": []
+}

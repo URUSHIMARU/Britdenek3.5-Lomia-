@@ -1,0 +1,104 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 1,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    2
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "offhand": true,
+                  "species": "weapon",
+                  "stuff": true,
+                  "sword": false,
+                  "spear": false,
+                  "axe": false,
+                  "bow": false,
+                  "shield": false,
+                  "value": 40,
+                  "attackBase": 10,
+                  "attackSpeedBase":40,
+                  "attackRangeBase":45,
+                  "bowAttackBase":10,
+                  "magicAttackBaseOff":60,
+                  "guardBase":0,
+                  "mpHealBase":20
+                },
+                "minecraft:custom_name": {
+                  "translate": "system.item.weapon.name.25",
+                  "color": "white",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                [
+                  {
+                    "translate": "system.sell.emerald",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  {
+                    "text": "\uF000",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "×4",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "translate": "system.item.weapon",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "translate": "system.item.stuff",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "system.item.weapon.param2",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "translate": "system.item.param.magic_attack",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "6",
+                    "color": "green",
+                    "italic": false
+                  }
+                ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": []
+}
