@@ -1,8 +1,8 @@
 #生存プレイヤーのタグつけ
 tag @e[tag=boss10battle] remove boss10battle
 #本チャン実装で座標入れ必須
-execute as @e[tag=boss10,tag=body] at @s at @e[distance=..70,tag=!boss10] if score @e[distance=..0.1,limit=1,tag=!boss10,sort=nearest] player < @s player run tag @e[distance=..0.1,limit=1,tag=!bullet,tag=!boss10,sort=nearest] add boss10battle
-execute as @e[tag=boss10,tag=body] at @s at @e[distance=..70,tag=!boss10] if score @e[distance=..0.1,limit=1,tag=!boss10,sort=nearest] player > @s player run tag @e[distance=..0.1,limit=1,tag=!bullet,tag=!boss10,sort=nearest] add boss10battle
+execute as @e[tag=boss10,tag=body] at @s at @e[distance=..70,tag=!boss10] if score @e[distance=..0.1,limit=1,tag=!boss10,sort=nearest] player < @s player run tag @e[tag=!notBattle,distance=..0.1,limit=1,tag=!bullet,tag=!boss10,sort=nearest] add boss10battle
+execute as @e[tag=boss10,tag=body] at @s at @e[distance=..70,tag=!boss10] if score @e[distance=..0.1,limit=1,tag=!boss10,sort=nearest] player > @s player run tag @e[tag=!notBattle,distance=..0.1,limit=1,tag=!bullet,tag=!boss10,sort=nearest] add boss10battle
 
 
 #特殊技は難易度(difficulty)2以上

@@ -1,8 +1,8 @@
 #生存プレイヤーのタグつけ
 tag @e[tag=boss22subbattle] remove boss22subbattle
 #本チャン実装で座標入れ必須
-execute as @e[tag=boss22sub,tag=body] at @s at @e[distance=..70,tag=!boss22sub] if score @e[distance=..0.1,limit=1,tag=!boss22sub,sort=nearest] player < @s player run tag @e[distance=..0.1,limit=1,tag=!bullet,tag=!boss22sub,sort=nearest] add boss22subbattle
-execute as @e[tag=boss22sub,tag=body] at @s at @e[distance=..70,tag=!boss22sub] if score @e[distance=..0.1,limit=1,tag=!boss22sub,sort=nearest] player > @s player run tag @e[distance=..0.1,limit=1,tag=!bullet,tag=!boss22sub,sort=nearest] add boss22subbattle
+execute as @e[tag=boss22sub,tag=body] at @s at @e[distance=..70,tag=!boss22sub] if score @e[distance=..0.1,limit=1,tag=!boss22sub,sort=nearest] player < @s player run tag @e[tag=!notBattle,distance=..0.1,limit=1,tag=!bullet,tag=!boss22sub,sort=nearest] add boss22subbattle
+execute as @e[tag=boss22sub,tag=body] at @s at @e[distance=..70,tag=!boss22sub] if score @e[distance=..0.1,limit=1,tag=!boss22sub,sort=nearest] player > @s player run tag @e[tag=!notBattle,distance=..0.1,limit=1,tag=!bullet,tag=!boss22sub,sort=nearest] add boss22subbattle
 
 
 

@@ -1,8 +1,8 @@
 #difficulty?????? x=831,y=62,z=956,dx=19,dy=11,dz=19
 #difficulty?????????
 tag @e[tag=boss1003battle] remove boss1003battle
-execute as @e[tag=boss1003,tag=body] at @s at @e[distance=..70,tag=!boss1003] if score @e[distance=..0.1,limit=1,tag=!boss1003,sort=nearest] player < @s player run tag @e[distance=..0.1,limit=1,tag=!bullet,tag=!boss1003,sort=nearest] add boss1003battle
-execute as @e[tag=boss1003,tag=body] at @s at @e[distance=..70,tag=!boss1003] if score @e[distance=..0.1,limit=1,tag=!boss1003,sort=nearest] player > @s player run tag @e[distance=..0.1,limit=1,tag=!bullet,tag=!boss1003,sort=nearest] add boss1003battle
+execute as @e[tag=boss1003,tag=body] at @s at @e[distance=..70,tag=!boss1003] if score @e[distance=..0.1,limit=1,tag=!boss1003,sort=nearest] player < @s player run tag @e[tag=!notBattle,distance=..0.1,limit=1,tag=!bullet,tag=!boss1003,sort=nearest] add boss1003battle
+execute as @e[tag=boss1003,tag=body] at @s at @e[distance=..70,tag=!boss1003] if score @e[distance=..0.1,limit=1,tag=!boss1003,sort=nearest] player > @s player run tag @e[tag=!notBattle,distance=..0.1,limit=1,tag=!bullet,tag=!boss1003,sort=nearest] add boss1003battle
 #difficulty????(difficulty)2??
 
 

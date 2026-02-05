@@ -2,8 +2,8 @@
 #scoreboard players set @e[x=1488,y=149,z=1232,dx=47,dy=50,dz=47,tag=player] player 0
 #tag @e[x=1488,y=149,z=1232,dx=47,dy=50,dz=47,tag=player] add boss3battle
 tag @e[tag=boss3battle] remove boss3battle
-execute as @e[tag=boss3,tag=body] at @s at @e[distance=..70,tag=!boss3] if score @e[distance=..0.1,limit=1,tag=!boss3,sort=nearest] player < @s player run tag @e[distance=..0.1,limit=1,tag=!bullet,tag=!boss3,sort=nearest] add boss3battle
-execute as @e[tag=boss3,tag=body] at @s at @e[distance=..70,tag=!boss3] if score @e[distance=..0.1,limit=1,tag=!boss3,sort=nearest] player > @s player run tag @e[distance=..0.1,limit=1,tag=!bullet,tag=!boss3,sort=nearest] add boss3battle
+execute as @e[tag=boss3,tag=body] at @s at @e[distance=..70,tag=!boss3] if score @e[distance=..0.1,limit=1,tag=!boss3,sort=nearest] player < @s player run tag @e[tag=!notBattle,distance=..0.1,limit=1,tag=!bullet,tag=!boss3,sort=nearest] add boss3battle
+execute as @e[tag=boss3,tag=body] at @s at @e[distance=..70,tag=!boss3] if score @e[distance=..0.1,limit=1,tag=!boss3,sort=nearest] player > @s player run tag @e[tag=!notBattle,distance=..0.1,limit=1,tag=!bullet,tag=!boss3,sort=nearest] add boss3battle
 
 
 

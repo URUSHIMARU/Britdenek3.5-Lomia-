@@ -25,11 +25,11 @@ scoreboard players set @e[tag=boss22sub,tag=body] HP 250
 execute as @a at @s run scoreboard players add @e[tag=boss22sub,tag=body] HP 120
 
 
-#ƒ`[ƒ€
-$scoreboard players set @e[tag=boss22sub] player $(team)
+#ï¿½`ï¿½[ï¿½ï¿½
+#scoreboard players operation @e[tag=boss22sub] player = @e[tag=boss22,tag=body] player
 
-#Å‰‚Ì‰‰o‚Æ“®‚­‚«‚Á‚©‚¯
-#ƒ{ƒX1 ‘®«‚Íƒm[ƒ}ƒ‹
+#ï¿½Åï¿½ï¿½Ì‰ï¿½ï¿½oï¿½Æ“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#ï¿½{ï¿½X1 ï¿½ï¿½ï¿½ï¿½ï¿½Íƒmï¿½[ï¿½}ï¿½ï¿½
 
 function namespace:main/boss/boss22sub/const
 bossbar set minecraft:boss22sub players @a[tag=boss22subbattle]

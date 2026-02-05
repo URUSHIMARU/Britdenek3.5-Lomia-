@@ -3,8 +3,8 @@ tag @e[tag=boss8battle] remove boss8battle
 #本チャン実装で座標入れ必須
 #scoreboard players set @e[x=1488,y=149,z=1232,dx=47,dy=50,dz=47,tag=player] player 0
 #tag @e[x=1488,y=149,z=1232,dx=47,dy=50,dz=47,tag=player] add boss8battle
-execute as @e[tag=boss8,tag=body] at @s at @e[distance=..70,tag=!boss8] if score @e[distance=..0.1,limit=1,tag=!boss8,sort=nearest] player < @s player run tag @e[distance=..0.1,limit=1,tag=!bullet,tag=!boss8,sort=nearest] add boss8battle
-execute as @e[tag=boss8,tag=body] at @s at @e[distance=..70,tag=!boss8] if score @e[distance=..0.1,limit=1,tag=!boss8,sort=nearest] player > @s player run tag @e[distance=..0.1,limit=1,tag=!bullet,tag=!boss8,sort=nearest] add boss8battle
+execute as @e[tag=boss8,tag=body] at @s at @e[distance=..70,tag=!boss8] if score @e[distance=..0.1,limit=1,tag=!boss8,sort=nearest] player < @s player run tag @e[tag=!notBattle,distance=..0.1,limit=1,tag=!bullet,tag=!boss8,sort=nearest] add boss8battle
+execute as @e[tag=boss8,tag=body] at @s at @e[distance=..70,tag=!boss8] if score @e[distance=..0.1,limit=1,tag=!boss8,sort=nearest] player > @s player run tag @e[tag=!notBattle,distance=..0.1,limit=1,tag=!bullet,tag=!boss8,sort=nearest] add boss8battle
 
 
 

@@ -2,8 +2,8 @@
 tag @e[tag=boss19battle] remove boss19battle
 #本チャン実装で座標入れ必須
 #本チャン実装で座標入れ必須
-execute as @e[tag=boss19,tag=body] at @s at @e[distance=..70,tag=!boss19] if score @e[distance=..0.1,limit=1,tag=!boss19,sort=nearest] player < @s player run tag @e[distance=..0.1,limit=1,tag=!bullet,tag=!boss19,sort=nearest] add boss19battle
-execute as @e[tag=boss19,tag=body] at @s at @e[distance=..70,tag=!boss19] if score @e[distance=..0.1,limit=1,tag=!boss19,sort=nearest] player > @s player run tag @e[distance=..0.1,limit=1,tag=!bullet,tag=!boss19,sort=nearest] add boss19battle
+execute as @e[tag=boss19,tag=body] at @s at @e[distance=..70,tag=!boss19] if score @e[distance=..0.1,limit=1,tag=!boss19,sort=nearest] player < @s player run tag @e[tag=!notBattle,distance=..0.1,limit=1,tag=!bullet,tag=!boss19,sort=nearest] add boss19battle
+execute as @e[tag=boss19,tag=body] at @s at @e[distance=..70,tag=!boss19] if score @e[distance=..0.1,limit=1,tag=!boss19,sort=nearest] player > @s player run tag @e[tag=!notBattle,distance=..0.1,limit=1,tag=!bullet,tag=!boss19,sort=nearest] add boss19battle
 
 
 #特殊技は難易度(difficulty)2以上

@@ -1,7 +1,7 @@
 #生存プレイヤーのタグつけ
 tag @e[tag=boss2battle] remove boss2battle
-execute as @e[tag=boss2,tag=body] at @s at @e[distance=..70,tag=!boss2] if score @e[distance=..0.1,limit=1,tag=!boss2,sort=nearest] player < @s player run tag @e[distance=..0.1,limit=1,tag=!bullet,tag=!boss2,sort=nearest] add boss2battle
-execute as @e[tag=boss2,tag=body] at @s at @e[distance=..70,tag=!boss2] if score @e[distance=..0.1,limit=1,tag=!boss2,sort=nearest] player > @s player run tag @e[distance=..0.1,limit=1,tag=!bullet,tag=!boss2,sort=nearest] add boss2battle
+execute as @e[tag=boss2,tag=body] at @s at @e[distance=..70,tag=!boss2] if score @e[distance=..0.1,limit=1,tag=!boss2,sort=nearest] player < @s player run tag @e[tag=!notBattle,distance=..0.1,limit=1,tag=!bullet,tag=!boss2,sort=nearest] add boss2battle
+execute as @e[tag=boss2,tag=body] at @s at @e[distance=..70,tag=!boss2] if score @e[distance=..0.1,limit=1,tag=!boss2,sort=nearest] player > @s player run tag @e[tag=!notBattle,distance=..0.1,limit=1,tag=!bullet,tag=!boss2,sort=nearest] add boss2battle
 
 #特殊技は#difficulty(difficulty)2以上
 

@@ -1,8 +1,8 @@
 #生存プレイヤーのタグつけ
 tag @e[tag=boss18battle] remove boss18battle
 #本チャン実装で座標入れ必須
-execute as @e[tag=boss18,tag=body] at @s at @e[distance=..70,tag=!boss18] if score @e[distance=..0.1,limit=1,tag=!boss18,sort=nearest] player < @s player run tag @e[distance=..0.1,limit=1,tag=!bullet,tag=!boss18,sort=nearest] add boss18battle
-execute as @e[tag=boss18,tag=body] at @s at @e[distance=..70,tag=!boss18] if score @e[distance=..0.1,limit=1,tag=!boss18,sort=nearest] player > @s player run tag @e[distance=..0.1,limit=1,tag=!bullet,tag=!boss18,sort=nearest] add boss18battle
+execute as @e[tag=boss18,tag=body] at @s at @e[distance=..70,tag=!boss18] if score @e[distance=..0.1,limit=1,tag=!boss18,sort=nearest] player < @s player run tag @e[tag=!notBattle,distance=..0.1,limit=1,tag=!bullet,tag=!boss18,sort=nearest] add boss18battle
+execute as @e[tag=boss18,tag=body] at @s at @e[distance=..70,tag=!boss18] if score @e[distance=..0.1,limit=1,tag=!boss18,sort=nearest] player > @s player run tag @e[tag=!notBattle,distance=..0.1,limit=1,tag=!bullet,tag=!boss18,sort=nearest] add boss18battle
 
 
 #特殊技は難易度(difficulty)2以上
@@ -31,13 +31,13 @@ execute as @e[tag=boss18,nbt={HurtTime:9s}] at @s run function namespace:main/bo
 execute as @e[tag=boss18,nbt={HurtTime:1s}] at @s run function namespace:main/boss/template/damage_end
 
 execute if entity @e[tag=boss18,nbt={HurtTime:9s},tag=sbody12] as @e[tag=boss18,tag=body1] at @s run function namespace:main/boss/template/damage_start {"bossNumber":"boss18","sound":"entity.warden.hurt",volume:2.0,pitch:0.8}
-execute if entity @e[tag=boss18,nbt={HurtTime:1s},tag=sbody12] run function namespace:main/boss/template/damage_end
+execute if entity @e[tag=boss18,nbt={HurtTime:1s},tag=sbody12] as @e[tag=boss18,tag=body1] at @s run function namespace:main/boss/template/damage_end
 
 execute if entity @e[tag=boss18,nbt={HurtTime:9s},tag=sbody11] as @e[tag=boss18,tag=tail] at @s run function namespace:main/boss/template/damage_start {"bossNumber":"boss18","sound":"entity.warden.hurt",volume:2.0,pitch:0.8}
-execute if entity @e[tag=boss18,nbt={HurtTime:1s},tag=sbody11] run function namespace:main/boss/template/damage_end
+execute if entity @e[tag=boss18,nbt={HurtTime:1s},tag=sbody11] as @e[tag=boss18,tag=tail] at @s run function namespace:main/boss/template/damage_end
 
 execute if entity @e[tag=boss18,nbt={HurtTime:9s},tag=sbody2] as @e[tag=boss18,tag=body2] at @s run function namespace:main/boss/template/damage_start {"bossNumber":"boss18","sound":"entity.warden.hurt",volume:2.0,pitch:0.8}
-execute if entity @e[tag=boss18,nbt={HurtTime:1s},tag=sbody2] run function namespace:main/boss/template/damage_end
+execute if entity @e[tag=boss18,nbt={HurtTime:1s},tag=sbody2] as @e[tag=boss18,tag=body2] at @s run function namespace:main/boss/template/damage_end
 
 
 

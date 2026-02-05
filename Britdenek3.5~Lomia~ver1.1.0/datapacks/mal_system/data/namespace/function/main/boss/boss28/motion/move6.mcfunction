@@ -58,13 +58,13 @@ effect give @e[tag=boss27_attack3,scores={bossskill1=1},distance=..100] glowing 
 execute as @e[tag=boss27_attack2,scores={bossskill1=30..39},distance=..100] at @s run teleport @s ^ ^ ^1
 execute as @e[tag=boss27_attack3,scores={bossskill1=30..39},distance=..100] at @s run teleport @s ^ ^ ^1
 
-execute as @e[tag=boss27_attack2,scores={bossskill1=40},distance=..100] at @s if entity @e[tag=boss27_attack3,distance=..1.5] run particle minecraft:explosion ~ ~1 ~ 2 1 2 1 30 force
-execute as @e[tag=boss27_attack2,scores={bossskill1=40},distance=..100] at @s if entity @e[tag=boss27_attack3,distance=..1.5] run particle minecraft:flame ~ ~1 ~ 2 1 2 1 30 force
-execute as @e[tag=boss27_attack2,scores={bossskill1=40},distance=..100] at @s if entity @e[tag=boss27_attack3,distance=..1.5] run particle flash{color:[1.0,1.0,1.0,0]} ~ ~1 ~ 2 1 1 1 30 force
-execute as @e[tag=boss27_attack2,scores={bossskill1=40},distance=..100] at @s if entity @e[tag=boss27_attack3,distance=..1.5] run playsound minecraft:entity.lightning_bolt.impact master @a ~ ~6 ~ 1.5 1.5
-execute if score #difficulty difficulty matches ..1 as @e[tag=boss27_attack2,scores={bossskill1=40},distance=..100] at @s if entity @e[tag=boss27_attack3,distance=..1.5] run scoreboard players set @e[tag=boss27battle,distance=..4] commandDamage 15
-execute if score #difficulty difficulty matches 2.. as @e[tag=boss27_attack2,scores={bossskill1=40},distance=..100] at @s if entity @e[tag=boss27_attack3,distance=..1.5] run scoreboard players set @e[tag=boss27battle,distance=..4] commandDamage 1015
-execute as @e[tag=boss27_attack2,scores={bossskill1=40},distance=..100] at @s if entity @e[tag=boss27_attack3,distance=...5] run effect give @e[tag=boss27battle,distance=..4] darkness 6 1 false
+execute as @e[tag=boss27_attack2,scores={bossskill1=40},distance=..100] at @s if entity @e[tag=boss27_attack3,distance=..1] run particle minecraft:explosion ~ ~1 ~ 2 1 2 1 30 force
+execute as @e[tag=boss27_attack2,scores={bossskill1=40},distance=..100] at @s if entity @e[tag=boss27_attack3,distance=..1] run particle minecraft:flame ~ ~1 ~ 2 1 2 1 30 force
+execute as @e[tag=boss27_attack2,scores={bossskill1=40},distance=..100] at @s if entity @e[tag=boss27_attack3,distance=..1] run particle flash{color:[1.0,1.0,1.0,0]} ~ ~1 ~ 2 1 1 1 30 force
+execute as @e[tag=boss27_attack2,scores={bossskill1=40},distance=..100] at @s if entity @e[tag=boss27_attack3,distance=..1] run playsound minecraft:entity.lightning_bolt.impact master @a ~ ~6 ~ 1.5 1.5
+execute if score #difficulty difficulty matches ..1 as @e[tag=boss27_attack2,scores={bossskill1=40},distance=..100] at @s if entity @e[tag=boss27_attack3,distance=..1] run scoreboard players set @e[tag=boss27battle,distance=..4] commandDamage 15
+execute if score #difficulty difficulty matches 2.. as @e[tag=boss27_attack2,scores={bossskill1=40},distance=..100] at @s if entity @e[tag=boss27_attack3,distance=..1] run scoreboard players set @e[tag=boss27battle,distance=..4] commandDamage 1015
+execute as @e[tag=boss27_attack2,scores={bossskill1=40},distance=..100] at @s if entity @e[tag=boss27_attack3,distance=..1] run effect give @e[tag=boss27battle,distance=..4] darkness 6 1 false
 
 kill @e[tag=boss27_attack2,scores={bossskill1=45},distance=..100] 
 kill @e[tag=boss27_attack3,scores={bossskill1=45},distance=..100] 

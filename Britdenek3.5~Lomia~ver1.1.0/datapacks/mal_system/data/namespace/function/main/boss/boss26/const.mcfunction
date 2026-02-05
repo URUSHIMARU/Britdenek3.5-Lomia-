@@ -1,8 +1,8 @@
 #生存プレイヤーのタグつけ
 tag @e[tag=boss26battle] remove boss26battle
 #本チャン実装で座標入れ必須
-execute as @e[tag=boss26,tag=body] at @s at @e[distance=..70,tag=!boss26] if score @e[distance=..0.1,limit=1,tag=!boss26,sort=nearest] player < @s player run tag @e[distance=..0.1,limit=1,tag=!bullet,tag=!boss26,sort=nearest] add boss26battle
-execute as @e[tag=boss26,tag=body] at @s at @e[distance=..70,tag=!boss26] if score @e[distance=..0.1,limit=1,tag=!boss26,sort=nearest] player > @s player run tag @e[distance=..0.1,limit=1,tag=!bullet,tag=!boss26,sort=nearest] add boss26battle
+execute as @e[tag=boss26,tag=body] at @s at @e[distance=..70,tag=!boss26] if score @e[distance=..0.1,limit=1,tag=!boss26,sort=nearest] player < @s player run tag @e[tag=!notBattle,distance=..0.1,limit=1,tag=!bullet,tag=!boss26,sort=nearest] add boss26battle
+execute as @e[tag=boss26,tag=body] at @s at @e[distance=..70,tag=!boss26] if score @e[distance=..0.1,limit=1,tag=!boss26,sort=nearest] player > @s player run tag @e[tag=!notBattle,distance=..0.1,limit=1,tag=!bullet,tag=!boss26,sort=nearest] add boss26battle
 
 
 #モーション制御

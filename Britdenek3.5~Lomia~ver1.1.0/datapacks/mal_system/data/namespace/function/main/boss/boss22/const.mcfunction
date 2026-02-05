@@ -1,8 +1,8 @@
 #生存プレイヤーのタグつけ
 tag @e[tag=boss22battle] remove boss22battle
 #本チャン実装で座標入れ必須
-execute as @e[tag=boss22,tag=body] at @s at @e[distance=..70,tag=!boss22] if score @e[distance=..0.1,limit=1,tag=!boss22,sort=nearest] player < @s player run tag @e[distance=..0.1,limit=1,tag=!bullet,tag=!boss22,sort=nearest] add boss22battle
-execute as @e[tag=boss22,tag=body] at @s at @e[distance=..70,tag=!boss22] if score @e[distance=..0.1,limit=1,tag=!boss22,sort=nearest] player > @s player run tag @e[distance=..0.1,limit=1,tag=!bullet,tag=!boss22,sort=nearest] add boss22battle
+execute as @e[tag=boss22,tag=body] at @s at @e[distance=..70,tag=!boss22] if score @e[distance=..0.1,limit=1,tag=!boss22,sort=nearest] player < @s player run tag @e[tag=!notBattle,distance=..0.1,limit=1,tag=!bullet,tag=!boss22,sort=nearest] add boss22battle
+execute as @e[tag=boss22,tag=body] at @s at @e[distance=..70,tag=!boss22] if score @e[distance=..0.1,limit=1,tag=!boss22,sort=nearest] player > @s player run tag @e[tag=!notBattle,distance=..0.1,limit=1,tag=!bullet,tag=!boss22,sort=nearest] add boss22battle
 
 
 
@@ -35,23 +35,23 @@ execute as @e[tag=boss22,nbt={HurtTime:1s}] at @s run function namespace:main/bo
 
 execute if entity @e[tag=boss22,nbt={HurtTime:9s},tag=sbody1] as @e[tag=boss22,tag=body1] at @s run function namespace:main/boss/template/damage_start {"bossNumber":"boss18","sound":"entity.warden.hurt",volume:2.0,pitch:0.8}
 execute if entity @e[tag=boss22,nbt={HurtTime:9s},tag=sbody1] as @e[tag=boss22,tag=body1] at @s run playsound minecraft:entity.glow_squid.hurt master @a ~ ~ ~ 2 2
-execute if entity @e[tag=boss22,nbt={HurtTime:1s},tag=sbody1] run function namespace:main/boss/template/damage_end
+execute if entity @e[tag=boss22,nbt={HurtTime:1s},tag=sbody1] as @e[tag=boss22,tag=body1] at @s run function namespace:main/boss/template/damage_end
 
 execute if entity @e[tag=boss22,nbt={HurtTime:9s},tag=sarm11] as @e[tag=boss22,tag=arm11] at @s run function namespace:main/boss/template/damage_start {"bossNumber":"boss18","sound":"entity.warden.hurt",volume:2.0,pitch:0.8}
 execute if entity @e[tag=boss22,nbt={HurtTime:9s},tag=sarm11] as @e[tag=boss22,tag=arm11] at @s run playsound minecraft:entity.glow_squid.hurt master @a ~ ~ ~ 2 2
-execute if entity @e[tag=boss22,nbt={HurtTime:1s},tag=sarm11] run function namespace:main/boss/template/damage_end
+execute if entity @e[tag=boss22,nbt={HurtTime:1s},tag=sarm11] as @e[tag=boss22,tag=arm11] at @s run function namespace:main/boss/template/damage_end
 
 execute if entity @e[tag=boss22,nbt={HurtTime:9s},tag=sarm12] as @e[tag=boss22,tag=arm12] at @s run function namespace:main/boss/template/damage_start {"bossNumber":"boss18","sound":"entity.warden.hurt",volume:2.0,pitch:0.8}
 execute if entity @e[tag=boss22,nbt={HurtTime:9s},tag=sarm12] as @e[tag=boss22,tag=arm12] at @s run playsound minecraft:entity.glow_squid.hurt master @a ~ ~ ~ 2 2
-execute if entity @e[tag=boss22,nbt={HurtTime:1s},tag=sarm12] run function namespace:main/boss/template/damage_end
+execute if entity @e[tag=boss22,nbt={HurtTime:1s},tag=sarm12] as @e[tag=boss22,tag=arm12] at @s run function namespace:main/boss/template/damage_end
 
 execute if entity @e[tag=boss22,nbt={HurtTime:9s},tag=sarm21] as @e[tag=boss22,tag=arm21] at @s run function namespace:main/boss/template/damage_start {"bossNumber":"boss18","sound":"entity.warden.hurt",volume:2.0,pitch:0.8}
 execute if entity @e[tag=boss22,nbt={HurtTime:9s},tag=sarm21] as @e[tag=boss22,tag=arm21] at @s run playsound minecraft:entity.glow_squid.hurt master @a ~ ~ ~ 2 2
-execute if entity @e[tag=boss22,nbt={HurtTime:1s},tag=sarm21] run function namespace:main/boss/template/damage_end
+execute if entity @e[tag=boss22,nbt={HurtTime:1s},tag=sarm21] as @e[tag=boss22,tag=arm21] at @s run function namespace:main/boss/template/damage_end
 
 execute if entity @e[tag=boss22,nbt={HurtTime:9s},tag=sarm22] as @e[tag=boss22,tag=arm22] at @s run function namespace:main/boss/template/damage_start {"bossNumber":"boss18","sound":"entity.warden.hurt",volume:2.0,pitch:0.8}
 execute if entity @e[tag=boss22,nbt={HurtTime:9s},tag=sarm22] as @e[tag=boss22,tag=arm22] at @s run playsound minecraft:entity.glow_squid.hurt master @a ~ ~ ~ 2 2
-execute if entity @e[tag=boss22,nbt={HurtTime:1s},tag=sarm22] run function namespace:main/boss/template/damage_end
+execute if entity @e[tag=boss22,nbt={HurtTime:1s},tag=sarm22] as @e[tag=boss22,tag=arm22] at @s run function namespace:main/boss/template/damage_end
 
 #ボスの攻撃管理
 #scoreboard players operation @e[tag=boss22_attack,tag=boss22player] player = @e[tag=boss22,tag=body,limit=1] player
@@ -68,9 +68,9 @@ execute as @e[tag=boss22,tag=body,scores={HP=..500}] at @s as @e[tag=boss22,tag=
 execute as @e[tag=boss22,tag=body,scores={HP=..500}] at @s as @e[tag=boss22,tag=egg2] at @s positioned ^1 ^2 ^-1 run function namespace:main/entity_model/boss/boss22/boss22_bullet1
 execute as @e[tag=boss22,tag=body,scores={HP=..500}] at @s as @e[tag=boss22,tag=egg2] at @s positioned ^1 ^2 ^-1 run function namespace:main/entity_model/boss/boss22/boss22_bullet1
 execute as @e[tag=boss22,tag=body,scores={HP=..500}] at @s as @e[tag=boss22,tag=egg2] at @s positioned ^1 ^2 ^-1 run function namespace:main/entity_model/boss/boss22/boss22_bullet1
-execute if score #difficulty difficulty matches 2.. as @e[tag=boss22,tag=body,scores={HP=..500}] at @s as @e[tag=boss22,tag=egg2] at @s positioned ^1 ^2 ^-1 run function namespace:main/entity_model/boss/boss22/bofunction
-execute if score #difficulty difficulty matches 2.. as @e[tag=boss22,tag=body,scores={HP=..500}] at @s as @e[tag=boss22,tag=egg2] at @s positioned ^1 ^2 ^-1 run function namespace:main/entity_model/boss/boss22/bofunction
-execute if score #difficulty difficulty matches 2.. as @e[tag=boss22,tag=body,scores={HP=..500}] at @s as @e[tag=boss22,tag=egg2] at @s positioned ^1 ^2 ^-1 run function namespace:main/entity_model/boss/boss22/bofunction
+execute if score #difficulty difficulty matches 2.. as @e[tag=boss22,tag=body,scores={HP=..500}] at @s as @e[tag=boss22,tag=egg2] at @s positioned ^1 ^2 ^-1 run function namespace:main/entity_model/boss/boss22/boss22_bullet1
+execute if score #difficulty difficulty matches 2.. as @e[tag=boss22,tag=body,scores={HP=..500}] at @s as @e[tag=boss22,tag=egg2] at @s positioned ^1 ^2 ^-1 run function namespace:main/entity_model/boss/boss22/boss22_bullet1
+execute if score #difficulty difficulty matches 2.. as @e[tag=boss22,tag=body,scores={HP=..500}] at @s as @e[tag=boss22,tag=egg2] at @s positioned ^1 ^2 ^-1 run function namespace:main/entity_model/boss/boss22/boss22_bullet1
 
 execute as @e[tag=boss22,tag=body,scores={HP=..500}] as @e[tag=boss22,tag=egg2] at @s as @e[tag=boss22_attack1] at @s store result score @s x run data get entity @s Pos[0] 100
 execute as @e[tag=boss22,tag=body,scores={HP=..500}] as @e[tag=boss22,tag=egg2] at @s as @e[tag=boss22_attack1] at @s store result score @s y run data get entity @s Pos[1] 100
@@ -106,19 +106,19 @@ execute as @e[tag=boss22,tag=body,scores={HP=..500}] at @s as @e[tag=boss22,tag=
 execute as @e[nbt={HurtTime:9s},tag=boss22_attack1] at @s run playsound minecraft:entity.elder_guardian.hurt_land master @a ~ ~ ~ 2 0.7
 execute as @e[tag=boss22_attack1] at @s store result entity @s Rotation[1] float 0.0 run data get entity @s Rotation[1]
 
-execute as @e[tag=boss22,tag=body,scores={HP=..200}] at @s as @e[tag=boss22,tag=egg1] at @s run function namespace:main/boss/boss22sub/summon {"team":2}
+execute as @e[tag=boss22,tag=body,scores={HP=..200}] at @s as @e[tag=boss22,tag=egg1] at @s run function namespace:main/boss/boss22sub/summon
 execute as @e[tag=boss22,tag=body,scores={HP=..200}] at @s as @e[tag=boss22,tag=egg1] at @s run particle minecraft:explosion ~ ~2 ~ 2 2 2 1 40 force
 execute as @e[tag=boss22,tag=body,scores={HP=..200}] at @s as @e[tag=boss22,tag=egg1] at @s run playsound minecraft:entity.glow_squid.death master @a ~ ~2 ~ 2 2
 execute as @e[tag=boss22,tag=body,scores={HP=..200}] at @s as @e[tag=boss22,tag=egg1] at @s run playsound minecraft:entity.ghast.hurt master @a ~ ~2 ~ 2 0.7
 execute as @e[tag=boss22,tag=body,scores={HP=..200}] at @s as @e[tag=boss22,tag=egg1] at @s run kill @s
 
 
-execute as @e[tag=boss22,tag=body,scores={HP=..350}] at @s as @e[tag=boss22,tag=egg3] at @s positioned ~ ~1 ~ run summon zombie ~ ~1 ~ {Tags:["boss22_attack2","boss22_attack","enemy"],NoGravity:0b,Silent:1b,PersistenceRequired:1b,NoAI:0b,CanPickUpLoot:0b,Health:100f,CanPickUpLoot:0b,HandItems:[{id:"minecraft:white_stained_glass",Count:1b,tag:{CustomModelData:15439}},{}],HandDropChances:[-100.000F,-100F],ArmorItems:[{},{},{},{id:"minecraft:white_stained_glass",Count:1b,tag:{CustomModelData:15440}}],ArmorDropChances:[0.085F,0.085F,0.085F,-100.000F],Attributes:[{Name:generic.max_health,Base:100},{Name:generic.knockback_resistance,Base:1},{Name:generic.attack_damage,Base:10},{Name:generic.attack_knockback,Base:1}],DeathTime:19s,DeathLootTable:"namespace:item/other/none"}
-execute as @e[tag=boss22,tag=body,scores={HP=..350}] at @s as @e[tag=boss22,tag=egg3] at @s positioned ~ ~1 ~ run summon zombie ~ ~1 ~ {Tags:["boss22_attack2","boss22_attack","enemy"],NoGravity:0b,Silent:1b,PersistenceRequired:1b,NoAI:0b,CanPickUpLoot:0b,Health:100f,CanPickUpLoot:0b,HandItems:[{id:"minecraft:white_stained_glass",Count:1b,tag:{CustomModelData:15439}},{}],HandDropChances:[-100.000F,-100F],ArmorItems:[{},{},{},{id:"minecraft:white_stained_glass",Count:1b,tag:{CustomModelData:15440}}],ArmorDropChances:[0.085F,0.085F,0.085F,-100.000F],Attributes:[{Name:generic.max_health,Base:100},{Name:generic.knockback_resistance,Base:1},{Name:generic.attack_damage,Base:10},{Name:generic.attack_knockback,Base:1}],DeathTime:19s,DeathLootTable:"namespace:item/other/none"}
-execute as @e[tag=boss22,tag=body,scores={HP=..350}] at @s as @e[tag=boss22,tag=egg3] at @s positioned ~ ~1 ~ run summon zombie ~ ~1 ~ {Tags:["boss22_attack2","boss22_attack","enemy"],NoGravity:0b,Silent:1b,PersistenceRequired:1b,NoAI:0b,CanPickUpLoot:0b,Health:100f,CanPickUpLoot:0b,HandItems:[{id:"minecraft:white_stained_glass",Count:1b,tag:{CustomModelData:15439}},{}],HandDropChances:[-100.000F,-100F],ArmorItems:[{},{},{},{id:"minecraft:white_stained_glass",Count:1b,tag:{CustomModelData:15440}}],ArmorDropChances:[0.085F,0.085F,0.085F,-100.000F],Attributes:[{Name:generic.max_health,Base:100},{Name:generic.knockback_resistance,Base:1},{Name:generic.attack_damage,Base:10},{Name:generic.attack_knockback,Base:1}],DeathTime:19s,DeathLootTable:"namespace:item/other/none"}
-execute as @e[tag=boss22,tag=body,scores={HP=..350}] if score #difficulty difficulty matches 2.. at @s as @e[tag=boss22,tag=egg3] at @s positioned ~ ~1 ~ run summon zombie ~ ~1 ~ {Tags:["boss22_attack2","boss22_attack","enemy"],NoGravity:0b,Silent:1b,PersistenceRequired:1b,NoAI:0b,CanPickUpLoot:0b,Health:100f,CanPickUpLoot:0b,HandItems:[{id:"minecraft:white_stained_glass",Count:1b,tag:{CustomModelData:15439}},{}],HandDropChances:[-100.000F,-100F],ArmorItems:[{},{},{},{id:"minecraft:white_stained_glass",Count:1b,tag:{CustomModelData:15440}}],ArmorDropChances:[0.085F,0.085F,0.085F,-100.000F],Attributes:[{Name:generic.max_health,Base:100},{Name:generic.knockback_resistance,Base:1},{Name:generic.attack_damage,Base:10},{Name:generic.attack_knockback,Base:1}],DeathTime:19s,DeathLootTable:"namespace:item/other/none"}
-execute as @e[tag=boss22,tag=body,scores={HP=..350}] if score #difficulty difficulty matches 2.. at @s as @e[tag=boss22,tag=egg3] at @s positioned ~ ~1 ~ run summon zombie ~ ~1 ~ {Tags:["boss22_attack2","boss22_attack","enemy"],NoGravity:0b,Silent:1b,PersistenceRequired:1b,NoAI:0b,CanPickUpLoot:0b,Health:100f,CanPickUpLoot:0b,HandItems:[{id:"minecraft:white_stained_glass",Count:1b,tag:{CustomModelData:15439}},{}],HandDropChances:[-100.000F,-100F],ArmorItems:[{},{},{},{id:"minecraft:white_stained_glass",Count:1b,tag:{CustomModelData:15440}}],ArmorDropChances:[0.085F,0.085F,0.085F,-100.000F],Attributes:[{Name:generic.max_health,Base:100},{Name:generic.knockback_resistance,Base:1},{Name:generic.attack_damage,Base:10},{Name:generic.attack_knockback,Base:1}],DeathTime:19s,DeathLootTable:"namespace:item/other/none"}
-execute as @e[tag=boss22,tag=body,scores={HP=..350}] if score #difficulty difficulty matches 2.. at @s as @e[tag=boss22,tag=egg3] at @s positioned ~ ~1 ~ run summon zombie ~ ~1 ~ {Tags:["boss22_attack2","boss22_attack","enemy"],NoGravity:0b,Silent:1b,PersistenceRequired:1b,NoAI:0b,CanPickUpLoot:0b,Health:100f,CanPickUpLoot:0b,HandItems:[{id:"minecraft:white_stained_glass",Count:1b,tag:{CustomModelData:15439}},{}],HandDropChances:[-100.000F,-100F],ArmorItems:[{},{},{},{id:"minecraft:white_stained_glass",Count:1b,tag:{CustomModelData:15440}}],ArmorDropChances:[0.085F,0.085F,0.085F,-100.000F],Attributes:[{Name:generic.max_health,Base:100},{Name:generic.knockback_resistance,Base:1},{Name:generic.attack_damage,Base:10},{Name:generic.attack_knockback,Base:1}],DeathTime:19s,DeathLootTable:"namespace:item/other/none"}
+execute as @e[tag=boss22,tag=body,scores={HP=..350}] at @s as @e[tag=boss22,tag=egg3] at @s positioned ~ ~1 ~ run function namespace:main/entity_model/boss/boss22/boss22_bullet2
+execute as @e[tag=boss22,tag=body,scores={HP=..350}] at @s as @e[tag=boss22,tag=egg3] at @s positioned ~ ~1 ~ run function namespace:main/entity_model/boss/boss22/boss22_bullet2
+execute as @e[tag=boss22,tag=body,scores={HP=..350}] at @s as @e[tag=boss22,tag=egg3] at @s positioned ~ ~1 ~ run function namespace:main/entity_model/boss/boss22/boss22_bullet2
+execute as @e[tag=boss22,tag=body,scores={HP=..350}] if score #difficulty difficulty matches 2.. at @s as @e[tag=boss22,tag=egg3] at @s positioned ~ ~1 ~ run function namespace:main/entity_model/boss/boss22/boss22_bullet2
+execute as @e[tag=boss22,tag=body,scores={HP=..350}] if score #difficulty difficulty matches 2.. at @s as @e[tag=boss22,tag=egg3] at @s positioned ~ ~1 ~ run function namespace:main/entity_model/boss/boss22/boss22_bullet2
+execute as @e[tag=boss22,tag=body,scores={HP=..350}] if score #difficulty difficulty matches 2.. at @s as @e[tag=boss22,tag=egg3] at @s positioned ~ ~1 ~ run function namespace:main/entity_model/boss/boss22/boss22_bullet2
 
 
 execute as @e[tag=boss22,tag=body,scores={HP=..350}] at @s as @e[tag=boss22,tag=egg3] at @s run scoreboard players operation @e[tag=boss22sub] player = @e[tag=boss22,tag=body,limit=1] player
