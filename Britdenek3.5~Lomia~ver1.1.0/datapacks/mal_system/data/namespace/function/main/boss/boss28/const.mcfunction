@@ -34,6 +34,11 @@ execute if entity @e[tag=boss28,limit=1,scores={bossmove=51,bossskill1=3},tag=bo
 execute if entity @e[tag=boss28,limit=1,scores={bossmove=6,bossskill1=3},tag=body] run function namespace:main/boss/boss28/motion/move6_3
 execute if entity @e[tag=boss28,limit=1,scores={bossmove=61,bossskill1=3},tag=body] run function namespace:main/boss/boss28/motion/move6_3_1
 
+execute if entity @e[tag=boss28,limit=1,scores={bossmove=3,bossskill1=4},tag=body] run function namespace:main/boss/boss28/motion/move3_4
+execute if entity @e[tag=boss28,limit=1,scores={bossmove=4,bossskill1=4},tag=body] run function namespace:main/boss/boss28/motion/move4_4
+execute if entity @e[tag=boss28,limit=1,scores={bossmove=5,bossskill1=4},tag=body] run function namespace:main/boss/boss28/motion/move5_4
+execute if entity @e[tag=boss28,limit=1,scores={bossmove=6,bossskill1=4},tag=body] run function namespace:main/boss/boss28/motion/move6_4
+
 
 execute if entity @e[tag=boss28,limit=1,scores={bossmove=5},tag=body] run function namespace:main/boss/boss28/motion/move5
 execute if entity @e[tag=boss28,limit=1,scores={bossmove=6},tag=body] run function namespace:main/boss/boss28/motion/move6

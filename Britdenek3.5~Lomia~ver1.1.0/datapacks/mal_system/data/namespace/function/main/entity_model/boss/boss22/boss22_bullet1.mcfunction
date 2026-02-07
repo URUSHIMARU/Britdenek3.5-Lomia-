@@ -4,6 +4,7 @@ execute as @e[tag=entity_first,limit=1,sort=nearest,distance=..1] at @s run func
 execute as @e[tag=entity_first,limit=1,sort=nearest,distance=..1] at @s run function namespace:main/system/cal/attribute/set_spawn_reinforcements {"value":0}
 execute if score #difficulty difficulty matches ..1 run execute as @e[tag=entity_first,limit=1,sort=nearest,distance=..1] at @s run function namespace:main/system/cal/attribute/set_attack {"value":9}
 execute if score #difficulty difficulty matches 2.. run execute as @e[tag=entity_first,limit=1,sort=nearest,distance=..1] at @s run function namespace:main/system/cal/attribute/set_attack {"value":13}
+scoreboard players operation @e[tag=entity_first,limit=1,sort=nearest,distance=..1] player = @e[tag=boss22,limit=1,tag=body] player
 effect clear @e[tag=entity_first,limit=1,sort=nearest,distance=..1] wither
 
 data merge entity @e[tag=entity_first,limit=1,sort=nearest,distance=..1] {NoGravity:0b,NoAI:0b,Tags:["boss22_attack1","boss22_attack","enemy","undead"]}

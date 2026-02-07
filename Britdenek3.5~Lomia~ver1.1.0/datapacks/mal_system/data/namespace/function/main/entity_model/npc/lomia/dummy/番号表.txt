@@ -1,0 +1,109 @@
+Boss 1
+ACR Omicron (アンチ・クラフターロボ　オミクロン)
+
+Boss 2
+Kendall (ケンドール)
+
+Boss 3
+Exsea　(エクシア)
+
+Boss 4
+Kirkady (キルカディ)
+
+Boss 5
+Vahdin　(ヴァーディン)
+
+Boss 6
+Throne (スローン)
+
+Boss 7
+Lambda (ラムダ)
+
+Boss 8
+Loreley (ローレライ)
+
+Boss 9
+Domion (ドミオン)
+
+Boss 10
+Archus (アーケス)
+
+Boss 11
+Cloak Bear (クロークベアー)
+
+Boss 12
+Infected Bear (インフェクティッドベアー)
+
+Boss 13
+Goldrich (ゴールドリッチ)
+
+Boss 14
+Desert Death Worm (デザートデスワーム)
+
+Boss 15
+Herubim (ヘルビム)
+
+Boss 16
+Luisa(ルイーサ)
+
+Boss 17
+Peryton(ペリュトン)
+
+Boss 18
+Parasite Worker(パラサイトワーカー)
+
+
+Boss19
+Hoodooo(フードゥー)
+
+Boss20
+Darkhai(ダーカイ)
+
+Boss21
+​Jennie Insanious(ジェニー・インサニアス)
+
+Boss22
+​Parasite Mother(パラサイトマザー)
+
+Boss23
+Brunik Soulless(ブルニク・ソウルレス)
+
+Boss24
+Eisen(アイゼン)
+
+Boss25
+Erman(エルマン)
+
+Boss26
+Hayate(ハヤテ)
+
+
+
+
+
+
+ロミアNPC番号管理
+1: オートマトン・コック〇
+2: オートマトン・ファーマー〇
+3: オートマトン・ブラックスミス〇
+4: オートマトン・ディラー〇
+5: オートマトン・ナイト〇
+6: オートマトン・トレーダー〇
+7: オートマトン・トレーダー〇
+8: オートマトン・オーナー〇
+9: オートマトン・ディーラー
+10:オートマトン・ナイト
+11:ルイーサ〇
+12:ハヤテ〇
+13:ナヴ(宿屋)〇
+14:ローガン(鍛冶屋)〇
+15:???(闇商人)〇
+16:ジョゼ(村長)〇
+17:ナンナ(商人)〇
+18:エレナ(商人)〇
+19:アスラン(司書)〇
+20:アルバス(牧師)
+21:リガン(魔法屋)〇
+22:ピサロ(高額商人)〇
+
+

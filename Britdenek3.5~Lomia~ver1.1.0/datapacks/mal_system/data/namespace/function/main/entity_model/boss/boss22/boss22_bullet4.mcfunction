@@ -7,7 +7,7 @@ execute if score #difficulty difficulty matches ..1 run execute as @e[tag=entity
 execute if score #difficulty difficulty matches 2.. run execute as @e[tag=entity_first,limit=1,sort=nearest,distance=..1] at @s run function namespace:main/system/cal/attribute/set_attack {"value":18}
 item replace entity @e[tag=entity_first,limit=1,sort=nearest,distance=..1] weapon.mainhand with minecraft:white_stained_glass[minecraft:custom_model_data={floats:[1195]}]
 effect clear @e[tag=entity_first,limit=1,sort=nearest,distance=..1]
-
+scoreboard players operation @e[tag=entity_first,limit=1,sort=nearest,distance=..1] player = @e[tag=boss22,limit=1,tag=body] player
 data merge entity @e[tag=entity_first,limit=1,sort=nearest,distance=..1] {Silent:0b,NoGravity:0b,NoAI:0b,Tags:["boss22_attack4","boss22_attack","enemy"]}
 
 

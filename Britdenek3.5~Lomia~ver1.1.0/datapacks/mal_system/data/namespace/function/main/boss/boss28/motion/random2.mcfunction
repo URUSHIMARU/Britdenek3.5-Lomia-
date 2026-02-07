@@ -26,7 +26,9 @@ execute if entity @s[scores={bossskill1=4}] run data modify entity @e[tag=boss28
 scoreboard players add @s[scores={bossskill1=4}] bossskill2 1500
 
 
-execute if entity @s[scores={bossskill1=4}] as @e[tag=boss28] at @s run data modify entity @s equipment.head.components."minecraft:dyed_color" set value 11616512
+execute if entity @s[scores={bossskill1=4}] as @e[tag=boss28] at @s run data modify entity @s equipment.head.components."minecraft:dyed_color" set value 4144959
+#execute if entity @s[scores={bossskill1=4}] as @e[tag=boss28] at @s run
+
 execute if entity @s[scores={bossskill1=4}] as @e[tag=boss28,tag=!weapon] at @s run data merge entity @s {Invulnerable:1b}
 
 execute as @s at @s positioned ~ ~200 ~ run kill @e[type=item,distance=..3]

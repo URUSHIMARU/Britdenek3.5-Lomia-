@@ -5,7 +5,7 @@ execute if score #difficulty difficulty matches 2.. run function namespace:main/
 execute as @e[tag=mob_first,limit=1,sort=nearest,distance=..1] at @s if score #difficulty difficulty matches 2.. run function namespace:main/system/cal/attribute/set_attack {value:15}
 execute as @e[tag=mob_first,limit=1,sort=nearest,distance=..1] at @s run function namespace:main/system/cal/attribute/set_attack_knockback {value:1}
 effect give @e[tag=mob_first,limit=1,sort=nearest,distance=..1] minecraft:invisibility infinite 1 true
-
+scoreboard players operation @e[tag=entity_first,limit=1,sort=nearest,distance=..1] player = @e[tag=boss18,limit=1,tag=body] player
 data merge entity @e[tag=mob_first,limit=1,sort=nearest,distance=..1] {Silent:1b,PersistenceRequired:1b,Tags:["boss18_attack2","boss18_attack","enemy","undead"]}
 
 

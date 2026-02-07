@@ -43,7 +43,6 @@ execute if score #difficulty difficulty matches 2.. as @e[tag=boss28,tag=body,sc
 execute if score #difficulty difficulty matches 2.. as @e[tag=boss28,tag=body,scores={motion=43,bossskill1=2..3}] at @s run particle minecraft:gust_emitter_large ~ ~1 ~ 0 0 0 1 1 force
 execute if score #difficulty difficulty matches 2.. as @e[tag=boss28,tag=body,scores={motion=43}] at @s run scoreboard players set @e[tag=boss28battle,distance=..6] commandDamage 1020
 
-
 execute as @e[tag=boss28,tag=body,scores={motion=60..},limit=1] at @s run function namespace:main/boss/boss28/motion/random1
 
 
